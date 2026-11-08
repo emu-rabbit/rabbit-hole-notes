@@ -24,4 +24,4 @@ That August date was my mistake. I found my calendar entry: ‘7 September 2019 
 
 The corrected move date is 7 September 2019, attributed to Rowan’s explicit correction and reported calendar entry. The table passed from Rowan to Kit on 19 December 2019. Kit then took it back to their aunt; the date of that onward handover is not separately supplied. The train-trip reference explains Rowan’s dating recollection; it does not establish an itinerary.
 
-Read the [updated story](../../30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md), [timeline](../../10_Life%20context/Timeline.md), or [source index](../README.md).
+Read the [updated story](../../30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md), [timeline](../../20_Life%20context/Timeline.md), or [source index](../README.md).

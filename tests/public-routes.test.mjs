@@ -97,7 +97,7 @@ test('new public recollections keep bilingual source scope and uncertain chronol
     const text = source(locale, clock[locale]);
     assert.match(text, locale === 'en' ? /later recollections/ : /後來的回憶/);
     assert.doesNotMatch(text.split('---')[2], /2011|2014|2026|high school|高中/);
-    const future = mappings.find(pair => pair.en === '20_Self and daily life/Seeing a future before thinking of saving.md');
+    const future = mappings.find(pair => pair.en === '10_Self and daily life/Seeing a future before thinking of saving.md');
     assert.equal(source(locale, future[locale]).match(/^kind:.*$/m)[0], 'kind: "theme"');
   }
 });

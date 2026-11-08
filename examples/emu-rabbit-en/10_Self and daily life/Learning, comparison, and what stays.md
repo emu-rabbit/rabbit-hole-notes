@@ -10,7 +10,7 @@ updated: "2026-11-07"
 Emu-rabbit likes solving problems and is fascinated by using computers as fast, precise tools. Comparing abilities has also made her feel panicked and inferior. Later, learning new technologies gave her a sense of security because she knew those skills would stay with her.[^1][^2]
 
 ## Comparison and a change of direction in high school
-[[10_Life chapters/01_2011-2014_Mathematics, words, and computing|In high school]], her exceptionally talented peers made her uneasy, but they were also people she liked and shared close bonds with. She did mathematical research she enjoyed, yet after submitting it she did not receive the response she hoped for. Her focus gradually shifted toward computing. Programming really did make her happy.[^1]
+[[20_Life chapters/01_2011-2014_Mathematics, words, and computing|In high school]], her exceptionally talented peers made her uneasy, but they were also people she liked and shared close bonds with. She did mathematical research she enjoyed, yet after submitting it she did not receive the response she hoped for. Her focus gradually shifted toward computing. Programming really did make her happy.[^1]
 
 ## Getting stuck while building
 At university, she wanted to write a “computer inside a computer,” but did not continue. Her teacher found a bug in another assignment, an infinite hotel. She felt a little disappointed and seems not to have finished fixing it.[^3]
@@ -25,7 +25,7 @@ Later, learning Flutter, Firebase, and basic color theory expanded the projects 
 ## Enjoying mathematics again
 As a child, a [[30_Stories/Chapters/The hour hand at four forty|clock-drawing assignment]] earned her teacher's praise. On another occasion, she pointed out a place in written arithmetic that might need borrowing; when the marking confirmed she was right, she was happy. These are two scenes she recalled later.[^6]
 
-Later, when she [[20_Self and daily life/Seeing a future before thinking of saving|began learning to manage money]], her fondness for mathematics returned because it could help her and was a useful tool.[^6]
+Later, when she [[10_Self and daily life/Seeing a future before thinking of saving|began learning to manage money]], her fondness for mathematics returned because it could help her and was a useful tool.[^6]
 
 ## Sources
 [^1]: [[80_Sources/Interviews/Learning and creating#High school: comparison and computing|Looking back on high school]]; [[80_Sources/Interviews/Learning and creating#Mathematics research and a change of direction|Research and a change of direction]].

@@ -17,4 +17,4 @@ Source: interview with the author, 2026-10-30. Excerpt from her own words.
 
 ^boundary-choice
 
-Related notes: [[50_Creative work/Independent work/Boundary Notes|Boundary Notes]], [[20_Self and daily life/Making things|Making things]].
+Related notes: [[50_Creative work/Independent work/Boundary Notes|Boundary Notes]], [[10_Self and daily life/Making things|Making things]].

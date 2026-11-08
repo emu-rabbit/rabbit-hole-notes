@@ -9,7 +9,7 @@ updated: "2026-11-07"
 
 When talking about how she began saving, Emu-rabbit specifically corrected the sequence: first she could see a future, then she thought of saving, and then she began learning to manage money. She no longer remembers how she got started, but she remembers that order.[^1]
 
-Learning about personal finance also brought back her [[20_Self and daily life/Learning, comparison, and what stays#Enjoying mathematics again|fondness for mathematics]], because it could help her and was a useful tool.[^2]
+Learning about personal finance also brought back her [[10_Self and daily life/Learning, comparison, and what stays#Enjoying mathematics again|fondness for mathematics]], because it could help her and was a useful tool.[^2]
 
 ## Sources
 [^1]: [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-future|The sequence the author corrected]].

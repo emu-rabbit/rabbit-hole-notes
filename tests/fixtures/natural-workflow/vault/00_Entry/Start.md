@@ -15,7 +15,7 @@ This is a small beginning, rather than a complete biography. It brings a later r
 
 ## A short reading route
 
-Begin with [The yellow mug on the windowsill](../30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md), then follow [Kit](../40_Important%20relationships/People/Kit.md) through the move and table loan. The [timeline](../10_Life%20context/Timeline.md) separates events from the dates they were written or remembered.
+Begin with [The yellow mug on the windowsill](../30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md), then follow [Kit](../40_Important%20relationships/People/Kit.md) through the move and table loan. The [timeline](../20_Life%20context/Timeline.md) separates events from the dates they were written or remembered.
 
 ## Find a detail
 

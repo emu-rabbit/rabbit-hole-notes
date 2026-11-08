@@ -37,7 +37,7 @@ Source: [Emu-rabbit's Window-side Notes](https://emu-rabbit.github.io/), the aut
 
 ^gh-033
 
-Related notes: [[20_Self and daily life/Freedom, honesty, and relationships|Freedom, honesty, and relationships]].
+Related notes: [[10_Self and daily life/Freedom, honesty, and relationships|Freedom, honesty, and relationships]].
 
 ## Minecraft
 

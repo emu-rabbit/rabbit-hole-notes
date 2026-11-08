@@ -17,7 +17,7 @@ The sitemap includes exactly the two introductions and 116 public note pages. It
 
 ## URL compatibility
 
-Keep published reader URLs and heading fragments stable by maintaining the mappings in `src/web/public-url-compat.mjs` when renaming notes. Direct GitHub and raw-file URLs follow the Markdown filenames.
+Reader filenames follow the note path unless `src/web/public-url-compat.mjs` specifies an explicit identity mapping. Direct GitHub and raw-file URLs follow the Markdown filenames. When a rename intentionally changes URLs, update internal links and remove obsolete generated pages; add aliases only when URL compatibility is required.
 
 ## GitHub Pages and robots.txt
 
@@ -33,7 +33,7 @@ Run `npm run check` on Node.js 22 or later. No install is needed. Tests cover:
 
 - Static English text, image descriptions, every structure panel, and note content.
 - Every public page's canonical, language alternates, description, robots and share metadata.
-- The 114-entry sitemap, self/alternate links, and exclusion of non-page artifacts.
+- The 118-entry sitemap, self/alternate links, and exclusion of non-page artifacts.
 - The social JPEG’s actual 1200 × 630 dimensions, matching metadata, and unchanged hero asset reference.
 - Internal links, anchors and assets under the GitHub Pages project path.
 - Legacy language URLs, paired note fragments, and HTML-safe descriptions.

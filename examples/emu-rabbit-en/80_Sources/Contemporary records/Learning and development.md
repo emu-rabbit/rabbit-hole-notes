@@ -19,7 +19,7 @@ Source: a Facebook post the author wrote in 2019. Excerpt; […] marks an omissi
 
 ^stable-life
 
-Related notes: [[10_Life chapters/03_2019-2020_Finding reasons to make things|Finding reasons to make things]].
+Related notes: [[20_Life chapters/03_2019-2020_Finding reasons to make things|Finding reasons to make things]].
 
 ## 2020: the function's response
 
@@ -60,4 +60,4 @@ Source: a Facebook post the author wrote in 2024. Excerpt from her own words.
 
 ^learning-later
 
-Related notes: [[10_Life chapters/04_2021-2024_Bringing what she loves into daily life|Bringing what she loves into daily life]], [[20_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]].
+Related notes: [[20_Life chapters/04_2021-2024_Bringing what she loves into daily life|Bringing what she loves into daily life]], [[10_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]].

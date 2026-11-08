@@ -31,4 +31,4 @@ She also wrote the [Rabbit Hole Method](https://github.com/emu-rabbit/rabbit-hol
 
 [^6]: [[80_Sources/Public work/The letter at the bottom of the box#^gh-005|Her own writing]]; [[80_Sources/Public work/The letter at the bottom of the box#^gh-006|The macaron portfolio]].
 
-Previous chapter: [[10_Life chapters/04_2021-2024_Bringing what she loves into daily life|2021–2024: Bringing what she loves into daily life]] · [[10_Life chapters/Timeline|Back to the selected timeline]]
+Previous chapter: [[20_Life chapters/04_2021-2024_Bringing what she loves into daily life|2021–2024: Bringing what she loves into daily life]] · [[20_Life chapters/Timeline|Back to the selected timeline]]

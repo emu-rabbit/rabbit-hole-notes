@@ -27,4 +27,4 @@ Also in 2020, she recalled the data structures she had learned at university and
 [^4]: [[80_Sources/Public work/Project introduction excerpts#LinkArray|The author's original text on LinkArray]].
 [^5]: [[80_Sources/Contemporary records/Learning and development#2020: the function's response|The development record from the time]].
 
-Previous chapter: [[10_Life chapters/02_2014-2018_Making curiosity work|Read the previous chapter]] · Next chapter: [[10_Life chapters/04_2021-2024_Bringing what she loves into daily life|Read the next chapter]] · [[10_Life chapters/Timeline|Back to the timeline]]
+Previous chapter: [[20_Life chapters/02_2014-2018_Making curiosity work|Read the previous chapter]] · Next chapter: [[20_Life chapters/04_2021-2024_Bringing what she loves into daily life|Read the next chapter]] · [[20_Life chapters/Timeline|Back to the timeline]]

@@ -75,7 +75,11 @@ class ToolkitTests(unittest.TestCase):
                 result = self.init(lang)
                 self.assertEqual(len(result['files']), 7)
                 self.assertTrue(self.run_cli('check', '--vault', self.vault)['ok'])
-                self.assertFalse((self.vault / '10_Life').exists())
+                sections = ('10_自我與生活', '20_人生脈絡') if lang == 'zh-TW' else ('10_Self and daily life', '20_Life chapters')
+                starter = next(self.vault.glob('00_*/Start.md')).read_text(encoding='utf-8')
+                for section in sections:
+                    self.assertIn('`' + section + '`', starter)
+                    self.assertFalse((self.vault / section).exists())
                 self.assertEqual(self.ledger(), [])
                 self.run_cli('init', '--vault', self.vault, '--name', 'Other', '--lang', lang, '--apply', code=2)
 

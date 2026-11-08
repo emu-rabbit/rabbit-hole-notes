@@ -4,7 +4,7 @@ This private rabbit hole follows Rowan’s move from the family flat to a room a
 
 Start with [Rowan’s introduction and reading route](00_Entry/Start.md), or go straight to [The yellow mug on the windowsill](30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md).
 
-- [Timeline](10_Life%20context/Timeline.md)
+- [Timeline](20_Life%20context/Timeline.md)
 - [Sources](80_Sources/README.md)
 - [Maintenance](90_Maintenance/README.md)
 

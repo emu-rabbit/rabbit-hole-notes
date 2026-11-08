@@ -10,18 +10,18 @@ updated: "2026-11-07"
 ## 00 Entry
 [[00_Entry/Profile|Profile]] · [[00_Entry/Reading map|Reading map]] · [Rabbit Hole Method](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/docs/method.en.md)
 
-## 10 Life chapters
-[[10_Life chapters/Timeline|Timeline]]
-- [[10_Life chapters/01_2011-2014_Mathematics, words, and computing|2011-2014: Mathematics, words, and computing]]
-- [[10_Life chapters/02_2014-2018_Making curiosity work|2014-2018: Making curiosity work]]
-- [[10_Life chapters/03_2019-2020_Finding reasons to make things|2019-2020: Finding reasons to make things]]
-- [[10_Life chapters/04_2021-2024_Bringing what she loves into daily life|2021-2024: Bringing what she loves into daily life]]
-- [[10_Life chapters/05_2025-2026_Creating and being seen|2025-2026: Creating and being seen]]
+## 10 Self and daily life
+[[10_Self and daily life/Making things|Making things]] · [[10_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]] · [[10_Self and daily life/Dressing as she likes|Dressing as she likes]] · [[10_Self and daily life/Freedom, honesty, and relationships|Freedom, honesty, and relationships]]
 
-## 20 Self and daily life
-[[20_Self and daily life/Making things|Making things]] · [[20_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]] · [[20_Self and daily life/Dressing as she likes|Dressing as she likes]] · [[20_Self and daily life/Freedom, honesty, and relationships|Freedom, honesty, and relationships]]
+[[10_Self and daily life/Seeing a future before thinking of saving|Seeing a future before thinking of saving]]
 
-[[20_Self and daily life/Seeing a future before thinking of saving|Seeing a future before thinking of saving]]
+## 20 Life chapters
+[[20_Life chapters/Timeline|Timeline]]
+- [[20_Life chapters/01_2011-2014_Mathematics, words, and computing|2011-2014: Mathematics, words, and computing]]
+- [[20_Life chapters/02_2014-2018_Making curiosity work|2014-2018: Making curiosity work]]
+- [[20_Life chapters/03_2019-2020_Finding reasons to make things|2019-2020: Finding reasons to make things]]
+- [[20_Life chapters/04_2021-2024_Bringing what she loves into daily life|2021-2024: Bringing what she loves into daily life]]
+- [[20_Life chapters/05_2025-2026_Creating and being seen|2025-2026: Creating and being seen]]
 
 ## 30 Stories
 - [[30_Stories/Chapters/The hour hand at four forty|The hour hand at four forty]]
