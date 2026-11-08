@@ -625,3 +625,44 @@ test('bilingual homepage footers group the author and two concise project links'
     assert.doesNotMatch(footer, /CC BY|MIT|保留權利|reserved/);
   }
 });
+
+
+test('bilingual support invitation follows the closing thought and opens a labelled payment dialog', () => {
+  for (const [locale, file] of [['zh-TW', 'dist/index.html'], ['en', 'dist/en/index.html']]) {
+    const html = text(file);
+    const closing = html.indexOf('class="after-building-closing"');
+    const invitation = html.indexOf('class="sponsor-invitation"');
+    assert.ok(closing > 0 && invitation > closing);
+    const line = /<p class="sponsor-invitation">([\s\S]*?)<\/p>/.exec(html)[1];
+    const plain = decodeEntities(line.replace(/<[^>]*>/g, ''));
+    assert.equal(plain, locale === 'en' ? "And if you enjoy the Rabbit Hole Method, you're welcome to treat the author to a macaron!" : '另外，如果你喜歡兔子洞筆記法，也歡迎請作者吃一顆馬卡龍唷！');
+    assert.ok(line.includes('aria-haspopup="dialog" aria-controls="sponsor-dialog"'));
+    const dialog = /<dialog\b([^>]*)>([\s\S]*?)<\/dialog>/.exec(html);
+    assert.ok(dialog[1].includes('aria-labelledby="sponsor-title"'));
+    assert.ok(dialog[1].includes('aria-describedby="sponsor-description"'));
+    assert.doesNotMatch(dialog[1], /\bopen(?:\s|=|$)/);
+    assert.ok(dialog[2].includes('data-sponsor-close'));
+    assert.ok(dialog[2].includes('autofocus'));
+    const links = [...dialog[2].matchAll(/<a\b([^>]*)>/g)].map(match => attributes(match[0]));
+    assert.deepEqual(links.map(link => link.href), ['https://p.ecpay.com.tw/6B3D677', 'https://ko-fi.com/emu_rabbit2526']);
+    for (const link of links) {
+      assert.equal(link.target, '_blank');
+      assert.equal(link.rel, 'noopener noreferrer');
+    }
+    const descriptionHtml = /<p id="sponsor-description"[^>]*>([\s\S]*?)<\/p>/.exec(dialog[2])[1];
+    const description = decodeEntities(descriptionHtml.replace(/<[^>]*>/g, ''));
+    assert.equal(description, locale === 'en' ? 'Thank you for enjoying the Rabbit Hole Method, and for your support!' : '謝謝你喜歡兔子洞筆記法，也謝謝你願意支持！');
+    assert.ok(descriptionHtml.includes('class="sponsor-description-tail"'));
+    assert.equal(/class="sponsor-description-tail"[^>]*>([^<]+)<\/span>/.exec(descriptionHtml)[1], locale === 'en' ? 'and for your support!' : '也謝謝你願意支持！');
+    assert.doesNotMatch(dialog[2], /sponsor-payment-notice|third-party payment pages|第三方付款頁面/);
+    assert.ok(!dialog[2].includes('C3D0915'), 'do not reuse the BoundaryNotes ECPay link');
+    assert.deepEqual(links.map(link => link['aria-describedby']), ['sponsor-ecpay-note', 'sponsor-kofi-note']);
+    assert.deepEqual(links.map(link => link['aria-labelledby']), ['sponsor-ecpay-label', 'sponsor-kofi-label']);
+    const channels = [...dialog[2].matchAll(/<a\b[^>]*>([\s\S]*?)<\/a>/g)];
+    assert.equal(channels.length, 2);
+    channels.forEach((channel, index) => assert.ok(channel[1].includes(`id="${links[index]['aria-describedby']}"`), 'each note belongs inside its own clickable payment link'));
+    const notes = [...dialog[2].matchAll(/<small class="sponsor-channel-note" id="([^"]+)"[^>]*>([^<]+)<\/small>/g)];
+    assert.deepEqual(notes.map(match => match[1]), ['sponsor-ecpay-note', 'sponsor-kofi-note']);
+    assert.deepEqual(notes.map(match => match[2]), locale === 'en' ? ['For supporters in Taiwan', 'For supporters worldwide'] : ['適合台灣地區贊助', '適合全球贊助']);
+  }
+});
