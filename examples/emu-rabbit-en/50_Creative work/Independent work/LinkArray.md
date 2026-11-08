@@ -20,7 +20,7 @@ For technical details, see [emu-rabbit/LinkArray](https://github.com/emu-rabbit/
 [^2]: [[80_Sources/Public work/Project introduction excerpts#^gh-019|Exploration and uncertainty at the time]].
 [^3]: [[80_Sources/Public work/Project introduction excerpts#^gh-020|Looking back six years later]].
 
-Related note: [[20_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]].
+Related note: [[10_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]].
 
 Continue this route: [[80_Sources/Contemporary records/Learning and development#2022–2024: learning and projects|What she learned stays]]
 

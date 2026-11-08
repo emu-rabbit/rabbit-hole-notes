@@ -21,4 +21,4 @@ In 2024, she wrote that she had branched out into Flutter and Firebase. She had 
 [^1]: [[80_Sources/Interviews/Clothing and daily life#Trying again and a work party|Work party recollections]].
 [^2]: [[80_Sources/Contemporary records/Learning and development#2022–2024: learning and projects|Two accounts of learning written at the time]].
 
-Previous chapter: [[10_Life chapters/03_2019-2020_Finding reasons to make things|Read the previous chapter]] · Next chapter: [[10_Life chapters/05_2025-2026_Creating and being seen|Read the next chapter]] · [[10_Life chapters/Timeline|Back to the timeline]]
+Previous chapter: [[20_Life chapters/03_2019-2020_Finding reasons to make things|Read the previous chapter]] · Next chapter: [[20_Life chapters/05_2025-2026_Creating and being seen|Read the next chapter]] · [[20_Life chapters/Timeline|Back to the timeline]]

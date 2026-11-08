@@ -19,7 +19,7 @@ Source: interview with the author, 2026-10-29. Excerpts from her own words in tw
 
 ^school-comparison-computing
 
-Related notes: [[10_Life chapters/01_2011-2014_Mathematics, words, and computing|Mathematics, words, and computing]].
+Related notes: [[20_Life chapters/01_2011-2014_Mathematics, words, and computing|Mathematics, words, and computing]].
 
 ## Mathematics research and a change of direction
 
@@ -33,7 +33,7 @@ Source: interview with the author, 2026-10-30. Excerpts from her own words in th
 
 ^school-research
 
-Related notes: [[10_Life chapters/01_2011-2014_Mathematics, words, and computing|Mathematics, words, and computing]].
+Related notes: [[20_Life chapters/01_2011-2014_Mathematics, words, and computing|Mathematics, words, and computing]].
 
 ## Scientific Romance and the class recital
 
@@ -57,7 +57,7 @@ Source: interview with the author, 2026-11-04. The following are excerpts from h
 
 ^computer-inside-computer
 
-Related notes: [[10_Life chapters/02_2014-2018_Making curiosity work|Making curiosity work]].
+Related notes: [[20_Life chapters/02_2014-2018_Making curiosity work|Making curiosity work]].
 
 ## University: unfinished attempts
 
@@ -67,7 +67,7 @@ Source: interview with the author, 2026-10-30. Adapted excerpt; square brackets 
 
 ^university-hotel
 
-Related notes: [[10_Life chapters/02_2014-2018_Making curiosity work|Making curiosity work]].
+Related notes: [[20_Life chapters/02_2014-2018_Making curiosity work|Making curiosity work]].
 
 ## One-click reports at work
 

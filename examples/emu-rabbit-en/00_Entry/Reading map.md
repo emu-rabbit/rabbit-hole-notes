@@ -77,13 +77,13 @@ Begin with how she wrote her own introduction and arranged the rhythm of a page.
 
 ## Seeing a future, then looking back at mathematics
 
-[[20_Self and daily life/Seeing a future before thinking of saving|Seeing a future before thinking of saving]] → [[30_Stories/Chapters/The hour hand at four forty|The hour hand at four forty]]
+[[10_Self and daily life/Seeing a future before thinking of saving|Seeing a future before thinking of saving]] → [[30_Stories/Chapters/The hour hand at four forty|The hour hand at four forty]]
 
-Begin with how she came to think of saving, then return to two childhood scenes of drawing a clock and noticing borrowing. Stop with the pleasure of being praised and finding she was right. To see how mathematics later became a useful tool again, continue to [[20_Self and daily life/Learning, comparison, and what stays#Enjoying mathematics again|Enjoying mathematics again]].
+Begin with how she came to think of saving, then return to two childhood scenes of drawing a clock and noticing borrowing. Stop with the pleasure of being praised and finding she was right. To see how mathematics later became a useful tool again, continue to [[10_Self and daily life/Learning, comparison, and what stays#Enjoying mathematics again|Enjoying mathematics again]].
 
 ## Follow time, or find one note
 
-Use the [[10_Life chapters/Timeline|timeline]] to see the order of events. To read the life chapters in sequence, begin with [[10_Life chapters/01_2011-2014_Mathematics, words, and computing|2011–2014: Mathematics, words, and computing]] and follow each chapter's next link through 2025–2026. You do not need to visit every linked story along the way.
+Use the [[20_Life chapters/Timeline|timeline]] to see the order of events. To read the life chapters in sequence, begin with [[20_Life chapters/01_2011-2014_Mathematics, words, and computing|2011–2014: Mathematics, words, and computing]] and follow each chapter's next link through 2025–2026. You do not need to visit every linked story along the way.
 
 Use the [[00_Entry/Index|index]] to find one note. Read the [Rabbit Hole Method](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/docs/method.en.md) to learn how these connections are organized.
 

@@ -441,3 +441,36 @@ test('nine sections distinguish generic profiles from real linked bilingual exam
     assert.doesNotMatch(html, /href="[^"]*90_/);
   }
 });
+
+test('self and daily life is section 10, life chapters is 20, with current-path reader URLs', () => {
+  const mappings = JSON.parse(readFileSync(new URL('../src/web/example-paths.json', import.meta.url)));
+  for (const [locale, self, life, oldSelf, oldLife] of [
+    ['zh-TW', '10_自我與生活', '20_人生脈絡', '20_自我與生活', '10_人生脈絡'],
+    ['en', '10_Self and daily life', '20_Life chapters', '20_Self and daily life', '10_Life chapters'],
+  ]) {
+    const method = readFileSync(new URL(`../docs/method.${locale}.md`, import.meta.url), 'utf8');
+    const sections = [...method.matchAll(/^### (\d{2}_[^：:\n]+)/gm)].map(match => match[1]);
+    assert.equal(sections[1], self);
+    assert.equal(sections[2], life);
+    const structure = renderStructure(locale);
+    assert.ok(structure.indexOf(`structure-${locale}-10-tab`) < structure.indexOf(`structure-${locale}-20-tab`));
+    assert.ok(structure.includes('>' + self.slice(3) + '</span>'));
+    assert.ok(structure.includes('>' + life.slice(3) + '</span>'));
+    assert.equal(mappings.filter(pair => pair[locale].startsWith(self + '/')).length, 5);
+    assert.equal(mappings.filter(pair => pair[locale].startsWith(life + '/')).length, 6);
+    const folder = locale === 'en' ? 'emu-rabbit-en' : 'emu-rabbit-tw';
+    const index = readFileSync(new URL(`../examples/${folder}/${locale === 'en' ? '00_Entry/Index.md' : '00_入口/索引.md'}`, import.meta.url), 'utf8');
+    assert.ok(index.indexOf('## ' + self.replace('_', ' ')) < index.indexOf('## ' + life.replace('_', ' ')));
+    for (const pair of mappings) {
+      const path = pair[locale];
+      assert.ok(!path.startsWith(oldSelf + '/') && !path.startsWith(oldLife + '/'));
+      const prefix = path.startsWith(self + '/') ? self : path.startsWith(life + '/') ? life : null;
+      if (!prefix) continue;
+      const old = (prefix === self ? oldSelf : oldLife) + path.slice(prefix.length);
+      const oldFile = `note-${createHash('sha256').update(old).digest('hex')}.html`;
+      assert.equal(noteFile(path), `note-${createHash('sha256').update(path).digest('hex')}.html`, 'no legacy path identity');
+      assert.ok(existsSync(buildFile(`${locale === 'en' ? 'reader-en' : 'reader'}/${noteFile(path)}`)));
+      assert.ok(!existsSync(buildFile(`${locale === 'en' ? 'reader-en' : 'reader'}/${oldFile}`)), 'old path output removed, no redirect');
+    }
+  }
+});

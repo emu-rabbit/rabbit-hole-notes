@@ -19,6 +19,6 @@ She knew from the beginning that not many people would use this project, and lat
 [^1]: [[80_Sources/Public work/Project documentation excerpts#Frozen Rabbit Tome: gathering strategies and simulation|Public README excerpts]].
 [^2]: [[80_Sources/Public work/Project introduction excerpts#Frozen Rabbit Tome|The author's own words in her portfolio]].
 
-Related note: [[20_Self and daily life/Making things|Making things]].
+Related note: [[10_Self and daily life/Making things|Making things]].
 
 [[00_Entry/Reading map|Reading map]] · [[00_Entry/Index|Index]]

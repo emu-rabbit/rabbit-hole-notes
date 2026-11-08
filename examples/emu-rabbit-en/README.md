@@ -26,7 +26,7 @@ Move from a repeated daily task to a design choice, then to how it felt to hear 
 
 Both are her current partners. A smile over a good meal and a wish for more time together on a date offer two glimpses of daily life.
 
-When you want to continue, the [[00_Entry/Reading map|reading map]] offers more stories and places to pause. Use the [[10_Life chapters/Timeline|timeline]] to put events in order, or the [[00_Entry/Index|index]] to find a person or project.
+When you want to continue, the [[00_Entry/Reading map|reading map]] offers more stories and places to pause. Use the [[20_Life chapters/Timeline|timeline]] to put events in order, or the [[00_Entry/Index|index]] to find a person or project.
 
 ## Follow a connection
 
@@ -39,7 +39,7 @@ This selection uses one index for all its sections. It has no separate story or 
 Choose “Download example” in the English website reader to get this English vault as a ZIP. The Chinese reader offers its own download with the same selection.
 
 1. Extract the ZIP, keeping its folder structure.
-2. In Obsidian, choose “Open folder as vault” and select the folder containing README.md, 00_Entry, 10_Life chapters, and the other sections.
+2. In Obsidian, choose “Open folder as vault” and select the folder containing README.md, 00_Entry, 10_Self and daily life, 20_Life chapters, and the other sections.
 3. Open README.md in reading view and begin with one of the short routes above.
 
 No community plugins are needed. A plain text editor can also read the Markdown. Double-bracket links and block references work in Obsidian and the website reader; GitHub's file view does not turn all of them into clickable links.

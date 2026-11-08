@@ -11,7 +11,7 @@ English translation of the published Chinese excerpts. Quotations below are tran
 
 Source: “The letter at the bottom of the box” in the author's public portfolio. Each passage includes a link to a fixed version.
 
-Related notes: [[20_Self and daily life/Making things|Making things]], [[30_Stories/Chapters/Six years of macarons in a portfolio|Six years of macarons in a portfolio]].
+Related notes: [[10_Self and daily life/Making things|Making things]], [[30_Stories/Chapters/Six years of macarons in a portfolio|Six years of macarons in a portfolio]].
 
 > If someone asked me why I wanted to be an engineer, I would say without hesitation: “Because I want to solve problems.”
 

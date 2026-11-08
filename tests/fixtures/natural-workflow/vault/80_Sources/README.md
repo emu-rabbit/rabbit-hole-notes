@@ -9,7 +9,7 @@
 - **Event:** A move remembered as “late August 2019, I think”; later explicitly corrected by Rowan; see the correction below.
 - **Available and fully read:** Initial request, question 1, answer 1, question 2 and answer 2.
 - **Stable passages:** [Answer 1](Interviews/2019-first-move.md#answer-1), [answer 2](Interviews/2019-first-move.md#answer-2).
-- **Integrated into:** [The yellow mug on the windowsill](../30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md), [Meet Rowan](../00_Entry/Start.md), and the [timeline](../10_Life%20context/Timeline.md).
+- **Integrated into:** [The yellow mug on the windowsill](../30_Stories/Chapters/The%20yellow%20mug%20on%20the%20windowsill.md), [Meet Rowan](../00_Entry/Start.md), and the [timeline](../20_Life%20context/Timeline.md).
 
 ## Selected posts
 

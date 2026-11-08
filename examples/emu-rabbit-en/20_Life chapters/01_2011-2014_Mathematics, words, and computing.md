@@ -25,4 +25,4 @@ Her Chinese-language teacher liked her and would discuss her writing with her. S
 [^2]: [[80_Sources/Interviews/Learning and creating#Mathematics research and a change of direction|Recollections of research and a change of direction]].
 [^3]: [[80_Sources/Interviews/Learning and creating#Scientific Romance and the class recital|Writing poetry and reciting]].
 
-Next chapter: [[10_Life chapters/02_2014-2018_Making curiosity work|Read the next chapter]] · [[10_Life chapters/Timeline|Back to the timeline]]
+Next chapter: [[20_Life chapters/02_2014-2018_Making curiosity work|Read the next chapter]] · [[20_Life chapters/Timeline|Back to the timeline]]

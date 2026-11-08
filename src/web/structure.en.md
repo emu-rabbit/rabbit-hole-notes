@@ -8,23 +8,23 @@ Help readers get to know you, then follow their curiosity. The three entry notes
 
 The public example is Emu-rabbit's rabbit hole. Its profile is named [`Profile.md`](<../../examples/emu-rabbit-en/00_Entry/Profile.md>) in the English edition.
 
-## 10_Life chapters: Get to know you over time
-
-Write a note for each stage of your life, bringing together the daily life, relationships, work and creative projects of that period. Readers can understand your circumstances then and what changed later. A timeline puts the stages in order and links to their articles.
-
-In the public example, [`Timeline.md`](<../../examples/emu-rabbit-en/10_Life chapters/Timeline.md>) leads to five stages from 2011 to 2026, such as [`01_2011-2014_Mathematics, words, and computing.md`](<../../examples/emu-rabbit-en/10_Life chapters/01_2011-2014_Mathematics, words, and computing.md>). Readers can consult the timeline or read through the periods in sequence.
-
-## 20_Self and daily life: See what carries across different periods
+## 10_Self and daily life: See what carries across different periods
 
 Bring together experiences and feelings from different years around individual themes. Readers can see what continues to influence you and how your thoughts change.
 
 The public example uses five notes to explore different sides of Emu-rabbit:
 
-- [`Making things.md`](<../../examples/emu-rabbit-en/20_Self and daily life/Making things.md>): why she creates and what she hopes her work will leave behind.
-- [`Learning, comparison, and what stays.md`](<../../examples/emu-rabbit-en/20_Self and daily life/Learning, comparison, and what stays.md>): curiosity, comparison and frustration in learning, and the abilities she developed along the way.
-- [`Dressing as she likes.md`](<../../examples/emu-rabbit-en/20_Self and daily life/Dressing as she likes.md>): clothing, self-expression and experiences in different settings.
-- [`Freedom, honesty, and relationships.md`](<../../examples/emu-rabbit-en/20_Self and daily life/Freedom, honesty, and relationships.md>): hopes for relationships, and everyday companionship, care and rest.
-- [`Seeing a future before thinking of saving.md`](<../../examples/emu-rabbit-en/20_Self and daily life/Seeing a future before thinking of saving.md>): seeing a future, then thinking of saving and learning to manage money.
+- [`Making things.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Making things.md>): why she creates and what she hopes her work will leave behind.
+- [`Learning, comparison, and what stays.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Learning, comparison, and what stays.md>): curiosity, comparison and frustration in learning, and the abilities she developed along the way.
+- [`Dressing as she likes.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Dressing as she likes.md>): clothing, self-expression and experiences in different settings.
+- [`Freedom, honesty, and relationships.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Freedom, honesty, and relationships.md>): hopes for relationships, and everyday companionship, care and rest.
+- [`Seeing a future before thinking of saving.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Seeing a future before thinking of saving.md>): seeing a future, then thinking of saving and learning to manage money.
+
+## 20_Life chapters: Get to know you over time
+
+Write a note for each stage of your life, bringing together the daily life, relationships, work and creative projects of that period. Readers can understand your circumstances then and what changed later. A timeline puts the stages in order and links to their articles.
+
+In the public example, [`Timeline.md`](<../../examples/emu-rabbit-en/20_Life chapters/Timeline.md>) leads to five stages from 2011 to 2026, such as [`01_2011-2014_Mathematics, words, and computing.md`](<../../examples/emu-rabbit-en/20_Life chapters/01_2011-2014_Mathematics, words, and computing.md>). Readers can consult the timeline or read through the periods in sequence.
 
 ## 30_Stories: Step into a complete scene
 

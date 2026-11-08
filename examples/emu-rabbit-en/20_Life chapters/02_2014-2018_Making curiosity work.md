@@ -22,4 +22,4 @@ The arrays and linked lists she learned about in university later gave her the i
 [^2]: [[80_Sources/Interviews/Learning and creating#University: unfinished attempts|Recollections of the infinite hotel]].
 [^3]: [[80_Sources/Public work/Project introduction excerpts#LinkArray|The author's original text on LinkArray]].
 
-Previous chapter: [[10_Life chapters/01_2011-2014_Mathematics, words, and computing|Read the previous chapter]] · Next chapter: [[10_Life chapters/03_2019-2020_Finding reasons to make things|Read the next chapter]] · [[10_Life chapters/Timeline|Back to the timeline]]
+Previous chapter: [[20_Life chapters/01_2011-2014_Mathematics, words, and computing|Read the previous chapter]] · Next chapter: [[20_Life chapters/03_2019-2020_Finding reasons to make things|Read the next chapter]] · [[20_Life chapters/Timeline|Back to the timeline]]

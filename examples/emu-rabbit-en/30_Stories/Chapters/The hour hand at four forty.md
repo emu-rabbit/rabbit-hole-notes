@@ -11,7 +11,7 @@ One childhood homework assignment asked her to draw a clock showing four forty. 
 
 On another occasion, she was waiting in line for her teacher to mark written arithmetic when she pointed out a place that might need borrowing. The teacher's marking later confirmed she was right, which made her happy. Both scenes are her later recollections; the exact school years and calendar years have not been established.[^1]
 
-Later, learning about personal finance brought back her [[20_Self and daily life/Learning, comparison, and what stays#Enjoying mathematics again|fondness for mathematics]]: it was a tool that could help her.[^2]
+Later, learning about personal finance brought back her [[10_Self and daily life/Learning, comparison, and what stays#Enjoying mathematics again|fondness for mathematics]]: it was a tool that could help her.[^2]
 
 ## Sources
 [^1]: [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-mathematics-task|The clock assignment]]; [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-mathematics-hour-hand|The hour hand’s position]]; [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-mathematics-praise|The teacher’s praise]]; [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-mathematics-borrowing|Recollections of borrowing]].

@@ -23,7 +23,7 @@ That is why the rabbit hole exists. Like a video camera, it records your experie
 
 ## Rabbit hole structure
 
-A rabbit hole begins with an overall picture of you, then goes deeper through time, life, stories, important relationships, creative work, and the people and things you like. Each section has its own place, and links bring them together: readers can get to know people through stories, or return from a project to your life when you made it.
+A rabbit hole begins with an overall picture of you, then goes deeper through life themes, life stages, stories, important relationships, creative work, and the people and things you like. Each section has its own place, and links bring them together: readers can get to know people through stories, or return from a project to your life when you made it.
 
 The root contains `README.md` and `AGENTS.md`, which provide basic information and initial guidance for people and agents respectively, and explain the purpose of each entry document. The profile lives in `00_Entry` and introduces you fully. This method stands outside individual vaults, explaining the method, structure, and principles; the entrance can link to it without copying its body. Sections `00` through `60`, `80`, and `90` are the shared main sections. Article topics and source subfolders develop according to your experiences, the materials you hold, and what you are willing to provide.
 
@@ -37,13 +37,13 @@ Help readers get to know you, then follow their curiosity. The three entry notes
 - `Reading map.md`: a few selected reading routes that let readers explore topics that interest them.
 - `Index.md`: content listed by section, making it easy to find a particular article and see what the rabbit hole contains.
 
-### 10_Life chapters: getting to know you through time
-
-Write a note for each stage of your life, bringing together the daily life, relationships, work and creative projects of that period. Readers can understand your circumstances then and what changed later. A timeline puts the stages in order and links to their articles.
-
-### 20_Self and daily life: seeing you across periods
+### 10_Self and daily life: seeing you across periods
 
 Bring together experiences and feelings from different years around individual themes. Readers can see what continues to influence you and how your thoughts change.
+
+### 20_Life chapters: getting to know you through time
+
+Write a note for each stage of your life, bringing together the daily life, relationships, work and creative projects of that period. Readers can understand your circumstances then and what changed later. A timeline puts the stages in order and links to their articles.
 
 ### 30_Stories: entering complete scenes
 
