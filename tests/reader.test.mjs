@@ -602,3 +602,26 @@ test('the actual preview server serves every license entry point and both langua
     await exited;
   }
 });
+
+
+test('bilingual homepage footers group the author and two concise project links', () => {
+  for (const [locale, file] of [['zh-TW', 'dist/index.html'], ['en', 'dist/en/index.html']]) {
+    const html = text(file);
+    const footer = /<footer\b[^>]*>([\s\S]*?)<\/footer>/.exec(html)[1];
+    const author = locale === 'en' ? 'Author' : '作者';
+    const name = locale === 'en' ? 'Emu-rabbit' : '絵夢羽さ沂';
+    const project = locale === 'en' ? 'GitHub project' : 'GitHub 專案';
+    const licensing = locale === 'en' ? 'Licensing' : '授權說明';
+    assert.ok(footer.includes(`>${author}</span>`));
+    assert.ok(footer.includes(`>${name}</strong>`));
+    const nav = /<nav class="footer-links"[^>]*>([\s\S]*?)<\/nav>/.exec(footer)[1];
+    const links = [...nav.matchAll(/<a\b([^>]*)>([^<]+)<\/a>/g)];
+    assert.deepEqual(links.map(match => match[2]), [project, licensing]);
+    assert.ok(links[0][1].includes('href="https://github.com/emu-rabbit/rabbit-hole-notes"'));
+    assert.ok(links[0][1].includes('target="_blank"'));
+    assert.ok(links[0][1].includes('rel="noopener"'));
+    assert.ok(links[1][1].includes(`href="${locale === 'en' ? '../' : './'}LICENSE.txt"`));
+    assert.equal([...footer.matchAll(/<a\b/g)].length, 3);
+    assert.doesNotMatch(footer, /CC BY|MIT|保留權利|reserved/);
+  }
+});

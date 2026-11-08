@@ -39,6 +39,7 @@ export const siteEnglish = {
   afterBuildingClosing: 'A rabbit hole is meant to be flexible. It should feel comfortable for you and help others get to know you. As you start digging, you can try the practices and ways of writing described here. If you find a way that feels right to you, use it ^^',
   footerAuthor: 'Author',
   authorName: 'Emu-rabbit',
-  footerLicense: 'Method CC BY 4.0 · Code MIT · Personal examples and images reserved',
-  footerRepository: 'GitHub repository',
+  footerLinks: 'Project information',
+  footerLicense: 'Licensing',
+  footerRepository: 'GitHub project',
 };
