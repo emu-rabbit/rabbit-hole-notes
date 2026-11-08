@@ -134,6 +134,8 @@ html[lang='en'] .structure-browser[lang='zh-TW'] { display: none; }
 
 .site-footer { border-top: 1px solid var(--line); background: var(--paper); }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-block: 22px; color: var(--muted); font-size: 14px; }
+.footer-links { display: flex; align-items: center; gap: 8px; }
+.footer-links a { white-space: nowrap; }
 .footer-inner strong { color: var(--ink); }
 .footer-inner a { color: var(--accent); text-underline-offset: .18em; }
 
