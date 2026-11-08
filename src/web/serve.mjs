@@ -12,6 +12,8 @@ const types = new Map([
   ['.jpg', 'image/jpeg'],
   ['.svg', 'image/svg+xml'],
   ['.zip', 'application/zip'],
+  ['.txt', 'text/plain; charset=utf-8'],
+  ['.LICENSE', 'text/plain; charset=utf-8'],
   ['.xml', 'application/xml; charset=utf-8'],
 ]);
 

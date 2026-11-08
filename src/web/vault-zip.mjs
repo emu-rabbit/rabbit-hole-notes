@@ -11,7 +11,8 @@ function crc32(bytes) {
 }
 
 // Stored ZIP entries, UTF-8 paths and a fixed 1980-01-01 timestamp. Only public
-// Markdown files are eligible; symlinks, hidden files and private inputs are not.
+// Markdown files and the root LICENSE.txt are eligible; symlinks, hidden files
+// and other non-Markdown inputs are not.
 export function createVaultZip(directory) {
   const entries = [];
   function walk(parts = []) {
@@ -19,11 +20,12 @@ export function createVaultZip(directory) {
       if (entry.name.startsWith('.')) continue;
       const path = [...parts, entry.name];
       if (entry.isDirectory()) walk(path);
-      else if (entry.isFile() && /\.md$/i.test(entry.name)) entries.push([path.join('/'), readFileSync(join(directory, ...path))]);
+      else if (entry.isFile() && (/\.md$/i.test(entry.name) || (parts.length === 0 && entry.name === 'LICENSE.txt'))) entries.push([path.join('/'), readFileSync(join(directory, ...path))]);
     }
   }
   walk();
   if (!entries.some(([name]) => name === 'README.md')) throw new Error('Public vault needs README.md');
+  if (!entries.some(([name]) => name === 'LICENSE.txt')) throw new Error('Public vault needs LICENSE.txt');
   const local = [], central = [];
   let offset = 0;
   for (const [path, data] of entries) {

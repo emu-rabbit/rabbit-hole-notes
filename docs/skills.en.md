@@ -182,3 +182,5 @@ npm run check
 In PowerShell, use `python -X utf8` as above and `npm.cmd run check` for website checks. Fictional Python tests cover installation, both languages, reimports, revisions and file safety; the website build checks paired editions and reading routes.
 
 See the [Windows validation record](skills-windows-validation.md) for test sources and counts, and the [reading evaluation](skills-evaluation.md) for historical interview and editorial cases. Detailed arguments live in the [CLI reference](../skills/rabbit-hole-start/references/cli.md); writing practices live in [conventions.md](../skills/rabbit-hole-start/references/conventions.md).
+
+This document is [CC BY 4.0](../LICENSES/CC-BY-4.0.txt); skill packages are MIT, and personal examples remain reserved. See [license scope](../LICENSE.md).

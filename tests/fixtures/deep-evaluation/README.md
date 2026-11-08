@@ -21,3 +21,5 @@
 輸入含有日期矛盾與未完成計畫。保留它們的不同時間位置；fixture 裡的 .invalid 網址只是測試定位，不是可查證的外部來源。最終閱讀快照是某次受審閱的產物，不是生成器的固定標準答案。它不帶機器台帳或 raw 二進位副本，使用唯讀 `check` 作一般 Markdown 儲存庫檢查；若要一併重驗維護筆記，加上 `--include-maintenance`。重跑匯入請另行 `init` 新庫。
 
 All source material is fictional. The deep case is in Traditional Chinese. A separate English small-case walkthrough was also completed; see the evaluation record for the exact scope and limits.
+
+License: [MIT](../../../LICENSES/MIT.txt), including the fictional sources and reading snapshots in this fixture.

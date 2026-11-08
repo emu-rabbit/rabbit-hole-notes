@@ -43,3 +43,5 @@ Choose “Download example” in the English website reader to get this English 
 3. Open README.md in reading view and begin with one of the short routes above.
 
 No community plugins are needed. A plain text editor can also read the Markdown. Double-bracket links and block references work in Obsidian and the website reader; GitHub's file view does not turn all of them into clickable links.
+
+This personal example remains all rights reserved; LICENSE.txt accompanies the ZIP. See the [license scope](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/LICENSE.md).

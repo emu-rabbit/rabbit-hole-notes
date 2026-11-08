@@ -156,3 +156,5 @@ An interview can begin with a concrete scene. Focusing on one or two questions a
 A rabbit hole is not a rigid framework. It should feel comfortable and help others get to know you. The practices and writing approaches in this document are starting points to consider and try when you begin digging. If you find a way that feels right as you go, use it.
 
 [Chinese edition](method.zh-TW.md)
+
+This document is [CC BY 4.0](../LICENSES/CC-BY-4.0.txt); skill packages are MIT, and personal examples remain reserved. See [license scope](../LICENSE.md).
