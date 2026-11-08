@@ -47,3 +47,34 @@ for (const browser of document.querySelectorAll('.structure-browser')) {
     tabs[next].focus();
   });
 }
+
+
+const sponsorDialog = document.querySelector('#sponsor-dialog');
+const sponsorTrigger = document.querySelector('[data-sponsor-trigger]');
+if (sponsorDialog && sponsorTrigger) {
+  sponsorTrigger.addEventListener('click', () => {
+    sponsorDialog.showModal();
+    document.body.classList.add('sponsor-open');
+  });
+  sponsorDialog.querySelector('[data-sponsor-close]').addEventListener('click', () => sponsorDialog.close());
+  sponsorDialog.addEventListener('keydown', event => {
+    if (event.key !== 'Tab') return;
+    const controls = [...sponsorDialog.querySelectorAll('button, a[href]')];
+    const first = controls[0], last = controls.at(-1);
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+  sponsorDialog.addEventListener('click', event => {
+    const rect = sponsorDialog.getBoundingClientRect();
+    if (event.target === sponsorDialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) sponsorDialog.close();
+  });
+  sponsorDialog.addEventListener('close', () => {
+    document.body.classList.remove('sponsor-open');
+    sponsorTrigger.focus({preventScroll: true});
+  });
+}
