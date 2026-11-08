@@ -108,7 +108,7 @@ for (const path of [
 }
 
 mkdirSync(join(output, 'LICENSES'), { recursive: true });
-writeFileSync(join(output, 'LICENSE.txt'), readFileSync(new URL('../../LICENSE.md', import.meta.url), 'utf8').replace('(src/web/vendor/THIRD-PARTY-NOTICES.txt)', '(vendor/THIRD-PARTY-NOTICES.txt)'));
+writeFileSync(join(output, 'LICENSE.txt'), readFileSync(new URL('../../LICENSE.md', import.meta.url), 'utf8').replaceAll('(src/web/vendor/THIRD-PARTY-NOTICES.txt)', '(vendor/THIRD-PARTY-NOTICES.txt)'));
 for (const name of ['MIT.txt', 'CC-BY-4.0.txt']) copyFileSync(new URL(`../../LICENSES/${name}`, import.meta.url), join(output, 'LICENSES', name));
 
 let index = readFileSync(new URL('./index.html', import.meta.url), 'utf8');

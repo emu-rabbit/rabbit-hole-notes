@@ -109,7 +109,8 @@ test('structure naming follows public English manifest and distinguishes optiona
   assert.ok(structure.includes('add a separate story index when useful'));
 });
 
-import { execFileSync } from 'node:child_process';
+import { execFileSync, spawn } from 'node:child_process';
+import { once } from 'node:events';
 import { readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { siteEnglish } from '../src/web/site-messages.js';
@@ -483,9 +484,17 @@ test('self and daily life is section 10, life chapters is 20, with current-path 
 const text = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
 test('distributed reader assets carry both license texts and all bundled dependency notices', () => {
-  for (const path of ['LICENSE.md', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt']) {
-    assert.equal(text(`dist/${path === 'LICENSE.md' ? 'LICENSE.txt' : path}`), text(path).replace('(src/web/vendor/THIRD-PARTY-NOTICES.txt)', '(vendor/THIRD-PARTY-NOTICES.txt)'));
+  for (const path of ['LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt']) {
+    assert.equal(text(`dist/${path}`), text(path));
   }
+  const scope = text('dist/LICENSE.txt');
+  const targets = [...scope.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)].map(match => match[1]);
+  assert.deepEqual(targets, [
+    'LICENSES/CC-BY-4.0.txt', 'LICENSES/CC-BY-4.0.txt',
+    'LICENSES/MIT.txt', 'LICENSES/MIT.txt',
+    'vendor/THIRD-PARTY-NOTICES.txt', 'vendor/THIRD-PARTY-NOTICES.txt',
+  ], 'both language notices must use independently specified, published paths');
+  for (const target of targets) assert.ok(existsSync(new URL(`../dist/${target}`, import.meta.url)), target);
   const notices = text('src/web/vendor/THIRD-PARTY-NOTICES.txt');
   assert.equal(text('dist/vendor/THIRD-PARTY-NOTICES.txt'), notices);
   const hash = createHash('sha256').update(text('src/web/vendor/markdown-it.js')).digest('hex');
@@ -535,4 +544,61 @@ test('both example ZIPs carry the reserved-rights notice without adding notes or
     assert.ok(text(`dist/${route}/index.html`).includes(`../downloads/${folder}-LICENSE.txt`));
   }
   for (const path of ['dist/index.html', 'dist/en/index.html']) assert.ok(text(path).includes('LICENSE.txt'));
+});
+
+
+test('the actual preview server serves every license entry point and both language scope links', {timeout: 20000}, async () => {
+  const child = spawn(process.execPath, ['src/web/serve.mjs'], {
+    cwd: fileURLToPath(new URL('../', import.meta.url)),
+    env: {...process.env, PORT: '0'}, stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  const exited = once(child, 'exit');
+  let errors = '';
+  child.stderr.on('data', chunk => { errors += chunk; });
+  try {
+    const base = await new Promise((resolve, reject) => {
+      let output = '';
+      child.once('error', reject);
+      child.once('exit', code => reject(new Error(`Preview exited ${code}: ${errors}`)));
+      child.stdout.on('data', chunk => {
+        output += chunk;
+        const match = output.match(/http:\/\/127\.0\.0\.1:\d+/);
+        if (match) resolve(match[0] + '/');
+      });
+    });
+    const paths = ['LICENSE.txt', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt',
+      'vendor/THIRD-PARTY-NOTICES.txt', 'vendor/markdown-it.LICENSE',
+      'downloads/emu-rabbit-tw-LICENSE.txt', 'downloads/emu-rabbit-en-LICENSE.txt'];
+    for (const path of paths) {
+      const response = await fetch(new URL(path, base));
+      assert.equal(response.status, 200, path);
+      assert.equal(response.headers.get('content-type'), 'text/plain; charset=utf-8', path);
+      assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
+      assert.equal(await response.text(), text(`dist/${path}`), path);
+      const head = await fetch(new URL(path, base), {method: 'HEAD'});
+      assert.equal(head.status, 200, path);
+      assert.equal(await head.text(), '');
+    }
+    for (const page of ['', 'en/', 'reader/', 'reader-en/']) {
+      const response = await fetch(new URL(page, base));
+      assert.equal(response.status, 200);
+      const html = await response.text();
+      const noticeLinks = [...html.matchAll(/href="([^"#]+(?:LICENSE\.txt|LICENSES\/[^"#]+|THIRD-PARTY-NOTICES\.txt))"/g)];
+      assert.ok(noticeLinks.length, `${page}: no licensing entry point`);
+      for (const [, target] of noticeLinks) assert.equal((await fetch(new URL(target, response.url))).status, 200, target);
+    }
+    const scopeUrl = new URL('LICENSE.txt', base);
+    const scope = await (await fetch(scopeUrl)).text();
+    const relativeLinks = [...scope.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)];
+    assert.equal(relativeLinks.length, 6, 'three linked documents in both languages');
+    for (const [, target] of relativeLinks) {
+      const response = await fetch(new URL(target, scopeUrl));
+      assert.equal(response.status, 200, target);
+      assert.equal(response.headers.get('content-type'), 'text/plain; charset=utf-8');
+    }
+    assert.equal((await fetch(new URL('src/web/vendor/THIRD-PARTY-NOTICES.txt', base))).status, 404);
+  } finally {
+    child.kill();
+    await exited;
+  }
 });
