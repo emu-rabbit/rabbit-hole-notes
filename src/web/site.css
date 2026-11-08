@@ -6,6 +6,8 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
+/* Keep the viewport width steady while the support dialog locks scrolling. */
+html { scrollbar-gutter: stable; }
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 }
