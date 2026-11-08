@@ -85,7 +85,7 @@ function renderPage(note, config) {
       </div>
     </header>
     <main class="workspace">
-      <article class="note" tabindex="-1">${shortcuts}${note.html}</article>
+      <article class="note" tabindex="-1">${shortcuts}${note.html}<p class="rights-notice"><a href="../downloads/${config.folder}-LICENSE.txt">${locale === 'en' ? 'Personal example: all rights reserved' : '個人範例：保留權利'}</a> · <a href="../LICENSE.txt">${locale === 'en' ? 'License scope' : '授權範圍'}</a></p></article>
       ${renderContext(note, noteUrl)}
     </main>
   </div>
@@ -102,10 +102,14 @@ mkdirSync(join(output, 'vendor'), { recursive: true });
 for (const path of [
   'method-compat.js', 'theme.css', 'site.css', 'site.js', 'site-messages.js', 'locale.css', 'locale.js', 'logo.svg', 'rabbit-hole.jpg', socialImage.path, 'notes.js',
   'reader/reader.css', 'reader/reader.js', 'reader/view.js', 'reader/messages.js',
-  'vendor/markdown-it.js', 'vendor/markdown-it.LICENSE',
+  'vendor/markdown-it.js', 'vendor/markdown-it.LICENSE', 'vendor/THIRD-PARTY-NOTICES.txt',
 ]) {
   copyFileSync(new URL(path, import.meta.url), join(output, path));
 }
+
+mkdirSync(join(output, 'LICENSES'), { recursive: true });
+writeFileSync(join(output, 'LICENSE.txt'), readFileSync(new URL('../../LICENSE.md', import.meta.url), 'utf8').replace('(src/web/vendor/THIRD-PARTY-NOTICES.txt)', '(vendor/THIRD-PARTY-NOTICES.txt)'));
+for (const name of ['MIT.txt', 'CC-BY-4.0.txt']) copyFileSync(new URL(`../../LICENSES/${name}`, import.meta.url), join(output, 'LICENSES', name));
 
 let index = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
 for (const asset of ['site.css', 'site.js']) {
@@ -161,6 +165,7 @@ for (const config of locales) {
   for (const entry of readdirSync(readerOutput, { withFileTypes: true })) {
     if (entry.isFile() && (/^note-[a-f0-9]{64}\.html$/.test(entry.name) && !built.has(entry.name) || entry.name === 'zip.js')) unlinkSync(join(readerOutput, entry.name));
   }
+  copyFileSync(join(config.directory, 'LICENSE.txt'), join(output, 'downloads', `${config.folder}-LICENSE.txt`));
   writeFileSync(join(output, 'downloads', `${config.folder}.zip`), createVaultZip(config.directory));
   console.log(`${config.locale}: ${library.notes.size} notes and public vault ZIP`);
 }

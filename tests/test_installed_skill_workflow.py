@@ -29,6 +29,10 @@ class InstalledSkillWorkflowTests(unittest.TestCase):
             self.cli(installer, '--dest', destination, '--apply')
             self.assertEqual(len(list(destination.glob('*/SKILL.md'))), 5)
             self.assertEqual(list(destination.rglob('method.*.md')), [])
+            for skill in destination.iterdir():
+                self.assertEqual((skill / 'LICENSE.txt').read_bytes(), (ROOT / 'LICENSES/MIT.txt').read_bytes())
+                self.assertEqual((skill / 'NOTICE.txt').read_bytes(), (ROOT / 'skills' / skill.name / 'NOTICE.txt').read_bytes())
+                self.assertIn('does not grant rights to personal vaults', (skill / 'NOTICE.txt').read_text(encoding='utf-8'))
             # All local references must resolve inside the copied five-skill bundle.
             tool = destination / 'rabbit-hole-start/scripts/rabbit_hole.py'
             source = root / '虛構 原話.txt'

@@ -44,3 +44,5 @@
 3. 開啟 README.md，切到閱讀模式，從上面的一條短路線開始。
 
 不需要社群外掛。一般文字編輯器也能閱讀 Markdown；雙中括號連結與區塊定位可在 Obsidian 或網站閱讀器使用，直接在 GitHub 檔案頁瀏覽時不會全部變成可點選的連結。
+
+本個人範例保留權利；ZIP 附有 LICENSE.txt。[授權範圍](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/LICENSE.md)。

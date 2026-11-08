@@ -182,3 +182,5 @@ npm run check
 Windows 的 Python 命令改用上述 `python -X utf8`，網站檢查使用 `npm.cmd run check`。Python 測試使用虛構資料，涵蓋安裝、兩種語言、重匯、修訂與檔案安全；網站建置會核對中英範例與閱讀路線。
 
 實測來源與數字見 [Windows 驗證紀錄](skills-windows-validation.md)；訪談與內容走讀的歷史案例見[閱讀驗收](skills-evaluation.md)。工具詳細參數見 [CLI 說明](../skills/rabbit-hole-start/references/cli.md)，寫作慣例見 [conventions.md](../skills/rabbit-hole-start/references/conventions.md)。
+
+本文採 [CC BY 4.0](../LICENSES/CC-BY-4.0.txt)；skills 套件採 MIT，個人範例保留權利。詳見[授權範圍](../LICENSE.md)。

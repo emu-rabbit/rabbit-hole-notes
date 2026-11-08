@@ -23,3 +23,5 @@ The result can be a small addition to an existing page. Let the material decide 
 - 「訪談我。」
 - “Interview me.”
 - 「這次只聊，不保存。」 / “Let's just talk this time, without saving.”
+
+[MIT license](LICENSE.txt) · [Scope notice](NOTICE.txt)

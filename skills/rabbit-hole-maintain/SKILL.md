@@ -23,3 +23,5 @@ For a check-only request, the deliverable is the actionable report. For an updat
 
 - 「這份新訪談更正了小刊物的首發日期，幫我補回兔子洞。」
 - “This new interview corrects the zine's launch date. Update my rabbit hole.”
+
+[MIT license](LICENSE.txt) · [Scope notice](NOTICE.txt)

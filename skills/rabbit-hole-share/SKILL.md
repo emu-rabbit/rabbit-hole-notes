@@ -27,3 +27,5 @@ The bundle supplies no automated export, hosting or publication command. Its str
 
 - 「把搬家和一起做小刊物的故事，整理成給姊姊看的本機草稿，我想先看過。」
 - “Prepare a local draft of the moving-home and zine stories for my older sister. I'd like to review it first.”
+
+[MIT license](LICENSE.txt) · [Scope notice](NOTICE.txt)

@@ -23,3 +23,5 @@ A large import may leave material unread. Record that boundary accurately and fi
 
 - 「把這三篇我挑好的貼文匯入兔子洞。」
 - “Add these three posts I selected to my rabbit hole.”
+
+[MIT license](LICENSE.txt) · [Scope notice](NOTICE.txt)

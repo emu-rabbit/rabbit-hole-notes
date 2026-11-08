@@ -22,3 +22,5 @@ Honor a request to set up only or to chat without saving. A first saved memory i
 
 - 「幫我建立兔子洞。我想從第一次搬家聊起。」
 - “Start a rabbit hole for me. I'd like to begin with the first time I moved home.”
+
+[MIT license](LICENSE.txt) · [Scope notice](NOTICE.txt)

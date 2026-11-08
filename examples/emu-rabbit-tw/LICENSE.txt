@@ -1,0 +1,7 @@
+權利聲明
+
+Copyright © 2026 絵夢羽さ沂（Emu-rabbit）。保留權利。
+
+這份個人公開範例的正文、翻譯、來源節錄、選編與導覽不採 CC BY 或 MIT。提供網站閱讀及 ZIP 下載供閱讀，不構成額外的改作、再散布或其他重用授權；需許可的使用請另向權利人確認。引用與第三方作品及其翻譯仍受原權利約束。依法無須許可的使用不受影響。私人 vault 與未公開材料不在授權範圍。
+
+https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/LICENSE.md

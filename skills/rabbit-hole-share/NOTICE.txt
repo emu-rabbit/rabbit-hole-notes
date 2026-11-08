@@ -1,0 +1,5 @@
+Rabbit Hole skills — MIT
+
+The MIT license in LICENSE.txt covers this skill package: instructions, reference guidance, code and operational templates. It does not grant rights to personal vaults, imported sources, generated personal narratives, images, branding, or third-party material. The method and teaching documents linked outside this package are CC BY 4.0; the author’s public example vaults remain all rights reserved.
+
+Scope: https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/LICENSE.md

@@ -19,3 +19,5 @@ Independent readers checked the actual narratives and source passages. This snap
 - `reading-copy/`: only the three selected Markdown files, using ordinary heading links. It omits the master’s state, original sources, maintenance and excluded passages.
 
 Use an Obsidian-compatible reader for the master’s Wiki links and `#^block-id` targets. Its rendered behavior was not tested in native Obsidian; review here used full files, actual anchor definitions and the checker. For import experiments, copy the fictional master outside this Git checkout before using the helper. The helper intentionally refuses write operations inside Git repositories.
+
+License: [MIT](../../../LICENSES/MIT.txt), including the fictional sources and reading snapshots in this fixture.

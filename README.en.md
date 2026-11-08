@@ -43,7 +43,7 @@ The local tools officially support macOS, Linux and Windows; see [installation](
 
 Choose material you want to entrust to a person or agent, gradually connecting it to people, projects and words from the time. Your rabbit hole can remain private; you decide what can be read, organized and shared.
 
-The example's people, stories, and sources belong to the author's life; keep their context intact. English source passages are marked as translations. Brackets and omission markers retain the boundaries of the published Chinese excerpts. Check the permissions for each source or project separately. This repository has no overall license yet; public access does not grant unrestricted reuse or redistribution.
+The example's people, stories, and sources belong to the author's life; keep their context intact. English source passages are marked as translations. Brackets and omission markers retain the boundaries of the published Chinese excerpts. Method and teaching documents are CC BY 4.0; software, skills and explicitly fictional test material are MIT. Personal public examples, images and branding remain reserved; quotations and third-party material retain their own rights. See [license scope and attribution](LICENSE.md).
 
 ## Develop locally
 
