@@ -53,7 +53,7 @@ try {
         const lines = [...rows.values()];
         return { lines: lines.map(row => row.text.trim()), firstLineFraction: (lines[0].right - lines[0].left) / contentWidth };
       }));
-      assert.equal(paragraphs.length, 5);
+      assert.equal(paragraphs.length, 4);
       for (const [index, paragraph] of paragraphs.entries()) {
         const last = paragraph.lines.at(-1);
         if (locale === 'zh-TW') assert.ok((last.match(/\p{Script=Han}/gu) || []).length >= 10, `${locale} ${width}px paragraph ${index + 1}: short tail ${last}`);
@@ -82,7 +82,7 @@ try {
       }
       const other = locale === 'en' ? 'zh-TW' : 'en';
       await page.locator(`.language-switcher [data-locale="${other}"]`).click(); await page.waitForLoadState('networkidle');
-      assert.equal(await page.locator('.closing-tail').count(), 5, 'language switching retains the tail groups');
+      assert.equal(await page.locator('.closing-tail').count(), 4, 'language switching retains the tail groups');
       await page.goto(base + (locale === 'en' ? 'reader-en/' : 'reader/') + 'index.html'); await page.waitForLoadState('networkidle');
       if (width < 500) await page.locator('.nav-toggle').click();
       const download = page.locator('.example-download'); await download.scrollIntoViewIfNeeded();
