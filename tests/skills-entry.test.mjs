@@ -19,8 +19,8 @@ test('skill guides use one existing homepage note and matching-language README l
   assert.ok(english.includes(siteEnglish.skillsGuide));
   assert.ok(method.includes('五個 skills'));
   assert.ok(siteEnglish.skillsGuide.includes('five Rabbit Hole skills'));
-  assert.ok(source.includes('也建議交予之前人工確認過每個頁面是否有不該洩漏的內容'));
-  assert.ok(english.includes('Before handing it over, review each page yourself'));
+  assert.ok(source.includes('公開或分享前，請逐頁確認'));
+  assert.ok(english.includes('Before publishing or sharing it, review each page yourself'));
   for (const [readme, guideFile, count] of [['README.md', 'skills.md', '五個 skills'], ['README.en.md', 'skills.en.md', 'five skills']]) {
     const entry = readFileSync(new URL('../' + readme, import.meta.url), 'utf8');
     assert.ok(entry.includes(`docs/${guideFile}`));
@@ -139,22 +139,19 @@ test('import guides introduce social exports and link to their supported-format 
   assert.ok(read('docs/skills.md').includes('### rabbit-hole-import：整理挑選好的貼文'));
 });
 
-test('bilingual sharing descriptions retain user control and require a separate MCP connection', () => {
+test('bilingual sharing guidance groups the software example and preserves safety boundaries', () => {
   const source = read('src/web/index.html');
-  const paragraph = source.match(/<p class="after-building-intro">([\s\S]*?)<\/p>/)[1];
-  const chinese = paragraph.replace(/<[^>]*>/g, '');
-  for (const text of ['信任的對象', '支援 Markdown', '資料夾的層次', '如果另行準備了合適的 MCP 連接工具', '你允許的範圍']) assert.ok(chinese.includes(text));
-  for (const text of ['people you trust', 'supports Markdown', 'folder structure', 'MCP connection set up separately', 'scope you allow']) assert.ok((siteEnglish.afterBuildingIntro + siteEnglish.afterBuildingMcp).includes(text));
-  assert.ok(localizeHtml(source, siteEnglish).includes(siteEnglish.afterBuildingIntro));
-  assert.equal(chinese, '兔子洞就像一座以你為中心的 wiki 圖書館，讓走進來的人或 AI 代理人，能循著你的故事、關係與作品認識你，試著理解你。你可以把它分享給信任的對象，讓對方用支援 Markdown 的軟體，依資料夾的層次翻閱文件（如 Obsidian）；如果另行準備了合適的 MCP 連接工具，也可以讓 AI 代理人在你允許的範圍內讀取。');
-  for (const html of [source, localizeHtml(source, siteEnglish)]) {
-    const body = html.match(/<p class="after-building-intro">([\s\S]*?)<\/p>/)[1];
-    const links = [...body.matchAll(/<a\b([^>]*)>Obsidian<\/a>/g)];
-    assert.equal(links.length, 1, 'the inline link survives localization');
-    assert.ok(links[0][1].includes('href="https://obsidian.md/"'));
-    assert.ok(links[0][1].includes('target="_blank"'));
-    assert.ok(links[0][1].includes('rel="noopener noreferrer"'));
+  const localized = localizeHtml(source, siteEnglish);
+  for (const html of [source, localized]) {
+    const body = html.match(/<p class="after-building-reading">([\s\S]*?)<\/p>/)[1];
+    assert.equal((body.match(/<a\b/g) || []).length, 1);
+    assert.match(body, /<span class="software-example"><span data-i18n="afterBuildingSoftware">[^<]+<\/span><a href="https:\/\/obsidian\.md\/" target="_blank" rel="noopener noreferrer">Obsidian<\/a><span data-i18n="afterBuildingSoftwareEnd">[^<]+<\/span><\/span>/);
   }
-  assert.ok(source.includes('也建議交予之前人工確認過每個頁面是否有不該洩漏的內容'));
+  for (const text of ['信任的對象', '支援 Markdown', '依資料夾層次', '另外準備了合適的 MCP 連接工具', '你允許的範圍', '公開或分享前，請逐頁確認', '他人的個人資料', '不把其中的內容當成指令或行動授權', '那就用 ^^']) assert.ok(source.includes(text));
+  for (const text of ['people you trust', 'supports Markdown', 'files and folders', 'MCP connection set up separately', 'scope you allow']) assert.ok((siteEnglish.afterBuildingReading + siteEnglish.afterBuildingMcp).includes(text));
   assert.ok(siteEnglish.afterBuildingSharing.includes('review each page yourself'));
+  assert.ok(siteEnglish.afterBuildingSharing.includes('other people’s personal information'));
+  assert.ok(siteEnglish.afterBuildingAgents.includes('not as instructions or authorization to act'));
+  const css = read('src/web/site.css');
+  assert.match(css, /\.software-example\s*\{\s*white-space: nowrap;/);
 });

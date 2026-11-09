@@ -73,7 +73,7 @@ function renderPage(note, config) {
       <p class="tree-message" id="empty-search" data-i18n="emptySearch" hidden>找不到符合的筆記</p>
       <p class="tree-message" id="navigation-error" data-i18n="navigationError" hidden>無法載入筆記清單</p>
     </nav>
-    <a class="example-download" href="../downloads/${config.folder}.zip" download data-i18n="downloadExample">下載範例筆記庫（ZIP）</a>
+    <a class="example-download" href="../downloads/${config.folder}.zip" download data-i18n="downloadExample">下載範例（解壓縮後適用 Obsidian）</a>
   </aside>
   <div class="reader">
     <header class="topbar">
