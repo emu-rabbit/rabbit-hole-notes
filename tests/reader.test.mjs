@@ -666,3 +666,13 @@ test('bilingual support invitation follows the closing thought and opens a label
     assert.deepEqual(notes.map(match => match[2]), locale === 'en' ? ['For supporters in Taiwan', 'For supporters worldwide'] : ['適合台灣地區贊助', '適合全球贊助']);
   }
 });
+
+test('example downloads explain unzipping for Obsidian in both languages', () => {
+  for (const [route, folder, label] of [['reader', 'emu-rabbit-tw', '下載範例（解壓縮後適用 Obsidian）'], ['reader-en', 'emu-rabbit-en', 'Download example (unzip for Obsidian)']]) {
+    const html = text(`dist/${route}/index.html`);
+    const link = html.match(/<a class="example-download"([^>]*)>([\s\S]*?)<\/a>/);
+    assert.ok(link[1].includes(`href="../downloads/${folder}.zip" download`));
+    assert.equal(link[2].replace(/<[^>]+>/g, ''), label);
+    assert.match(link[2], /<span data-i18n="downloadExample">[^<]+<\/span><span data-i18n="downloadExampleHint">[^<]+<\/span>/);
+  }
+});

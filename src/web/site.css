@@ -121,8 +121,13 @@ html[lang='en'] .structure-browser[lang='zh-TW'] { display: none; }
 .structure-example-note { display: block; margin-top: 4px; font-size: 14px; }
 
 .after-building { padding-block: clamp(44px, 6vw, 72px); background: var(--honey-wash); }
+.after-building h2 { text-wrap: balance; }
+html[lang="zh-TW"] .after-building h2 { word-break: keep-all; }
 .after-building-copy { max-width: 52rem; margin-top: 16px; color: var(--body); line-height: 1.85; }
-.after-building-copy p { margin: 0; }
+.after-building-copy p { margin: 0; text-wrap: pretty; }
+/* Keep short endings intact without balancing the whole paragraph. */
+.after-building-copy .software-example,
+.after-building-copy .closing-tail { white-space: nowrap; }
 .after-building-copy p + p { margin-top: 12px; }
 .after-building-copy .after-building-closing {
   margin-top: clamp(24px, 4vw, 40px);

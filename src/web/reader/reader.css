@@ -237,4 +237,6 @@ details[open] > summary .icon-chevron { transform: rotate(90deg); }
 }
 
 .reader-shortcuts { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-bottom: 24px; font-size: 14px; }
-.example-download { padding: 16px 20px; font-size: 13px; border-top: 1px solid var(--line); }
+.example-download { display: flex; flex-wrap: wrap; padding: 16px 20px; font-size: 13px; border-top: 1px solid var(--line); }
+.example-download > span { white-space: nowrap; }
+html[lang="en"] .example-download { column-gap: .3em; }
