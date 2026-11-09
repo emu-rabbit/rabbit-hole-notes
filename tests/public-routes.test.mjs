@@ -12,6 +12,10 @@ const roots = {
 };
 const libraries = Object.fromEntries(Object.entries(roots).map(([locale, root]) => [locale, loadLibrary(fileURLToPath(root))]));
 const source = (locale, path) => readFileSync(new URL(path, roots[locale]), 'utf8');
+const conceptUrls = {
+  'zh-TW': ['https://zh.wikipedia.org/zh-tw/BDSM', 'https://zh.wikipedia.org/zh-tw/%E9%9D%9E%E5%96%AE%E9%85%8D%E5%81%B6%E5%88%B6'],
+  en: ['https://en.wikipedia.org/wiki/BDSM', 'https://en.wikipedia.org/wiki/Non-monogamy'],
+};
 
 test('all 58 notes in each public example are reachable from README', () => {
   for (const [locale, library] of Object.entries(libraries)) {
@@ -71,8 +75,11 @@ test('translations retain note identity, source dates and external locators', ()
       assert.ok(chinese.includes(methodSourceUrls['zh-TW']));
       assert.ok(english.includes(methodSourceUrls.en));
     }
-    const urls = text => [...text.matchAll(/https?:\/\/[^\s)]+/g)].map(match => match[0]).filter(url => !methodUrls.has(url)).sort();
-    assert.deepEqual(urls(english), urls(chinese), pair.en + ' external sources');
+    const urls = (text, locale) => [...text.matchAll(/https?:\/\/[^\s)]+/g)].map(match => match[0]).filter(url => !methodUrls.has(url)).map(url => {
+      const concept = pair.en === '00_Entry/Profile.md' ? conceptUrls[locale].indexOf(url) : -1;
+      return concept < 0 ? url : `concept:${concept}`;
+    }).sort();
+    assert.deepEqual(urls(english, 'en'), urls(chinese, 'zh-TW'), pair.en + ' external sources and equivalent concept references');
   }
 });
 
@@ -119,5 +126,21 @@ test('root entries separate orientation from routes and use portable Markdown li
     assert.doesNotMatch(entrance, /→|30_Stories\/|30_故事\//, 'specific story routes belong in the map');
     assert.ok(library.notes.get('AGENTS.md').backlinks.some(note => note.path === 'README.md'));
     assert.ok(library.notes.get('README.md').backlinks.some(note => note.path === 'AGENTS.md'));
+  }
+});
+
+test('profile identities use general concept links separately from personal source footnotes', () => {
+  const pair = mappings.find(pair => pair.en === '00_Entry/Profile.md');
+  for (const locale of ['zh-TW', 'en']) {
+    const text = source(locale, pair[locale]);
+    const [body, footnotes] = text.split(locale === 'en' ? '## Sources' : '## 來源');
+    for (const url of conceptUrls[locale]) assert.equal(body.split(url).length - 1, 1);
+    assert.match(body, locale === 'en' ? /BDSMer.*practices \[non-monogamy\]/ : /BDSMer.*也是\[非一對一關係\].*實踐者/);
+    assert.doesNotMatch(footnotes, /wikipedia\.org/);
+    assert.match(footnotes, /^\[\^6\]:.*#\^gh-032/m, 'BDSMer has a pinpoint personal-source reference');
+    assert.ok(footnotes.includes(locale === 'en' ? 'Public profiles/Window-side Notes excerpts#Freedom and love' : '公開自介/窗邊手記節錄#自由與相愛'));
+    const identity = body.split('\n\n').find(paragraph => paragraph.includes('[BDSMer]'));
+    assert.ok(identity);
+    assert.doesNotMatch(identity, /polyamory|polyamorous|open relationship|多邊戀|多元之愛|開放式關係/i);
   }
 });
