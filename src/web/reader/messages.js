@@ -18,5 +18,6 @@ export const readerEnglish = {
   footnote: 'Footnote {number}',
   footnoteReturn: 'Back to reference {number}',
   readingMap: 'Reading map',
-  downloadExample: 'Download example (unzip for Obsidian)',
+  downloadExample: 'Download example',
+  downloadExampleHint: ' (unzip for Obsidian)',
 };
