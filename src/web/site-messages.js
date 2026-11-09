@@ -33,6 +33,7 @@ export const siteEnglish = {
   structureExample: 'Hard to picture? Take a look at an example rabbit hole!',
   structureExampleNote: 'This is a highly condensed version of the author’s rabbit hole (less than about one eighth of its full size). You can make yours as deep and expansive as you like.',
   afterBuildingTitle: 'You’ve built a rabbit hole. Now what?',
+  afterBuildingCombinedIntro: "A rabbit hole is like a wiki library centered on you. People or AI agents who enter can follow your stories, relationships, and creative work to get to know you and try to understand you. You can share it with people you trust, so they can browse its files and folder structure in software that supports Markdown ",
   afterBuildingIntro: "A rabbit hole is like a wiki library centered on you. People or AI agents who enter can follow your stories, relationships, and creative work to get to know you and ",
   afterBuildingIntroTail: "try to understand you.",
   afterBuildingReading: "You can share it with people you trust, so they can browse its files and folder structure in software that supports Markdown ",
