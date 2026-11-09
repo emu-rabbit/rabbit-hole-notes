@@ -83,6 +83,34 @@ class ToolkitTests(unittest.TestCase):
                 self.assertEqual(self.ledger(), [])
                 self.run_cli('init', '--vault', self.vault, '--name', 'Other', '--lang', lang, '--apply', code=2)
 
+    def test_initial_root_entries_link_each_other_and_one_start_with_markdown(self):
+        from urllib.parse import unquote, urlsplit
+        import re
+        for lang in ('en', 'zh-TW'):
+            with self.subTest(lang=lang):
+                self.vault = self.root / lang
+                result = self.init(lang)
+                self.assertEqual(len(result['files']), 7)
+                entries = list(self.vault.glob('00_*/*.md'))
+                self.assertEqual([p.name for p in entries], ['Start.md'])
+                for name, counterpart in [('README.md', 'AGENTS.md'), ('AGENTS.md', 'README.md')]:
+                    text = (self.vault / name).read_text(encoding='utf-8')
+                    self.assertNotIn('[[', text)
+                    links = re.findall(r'\[[^\]]+\]\(([^)]+)\)', text)
+                    local = [unquote(link) for link in links if not urlsplit(link).scheme]
+                    self.assertIn(counterpart, local)
+                    self.assertIn(entries[0].relative_to(self.vault).as_posix(), local)
+                    for link in local:
+                        target = (self.vault / link).resolve()
+                        self.assertTrue(target.is_relative_to(self.vault))
+                        self.assertTrue(target.is_file(), link)
+                readme = (self.vault / 'README.md').read_text(encoding='utf-8')
+                self.assertIn('method.' + lang + '.md', readme)
+                start = entries[0].read_text(encoding='utf-8')
+                self.assertIn('](../README.md)', start)
+                self.assertIn('](../AGENTS.md)', start)
+                self.assertTrue(self.run_cli('check', '--vault', self.vault, '--include-maintenance')['ok'])
+
     def test_work_pages_flat_within_participation_folders_and_multiple_indexes(self):
         layouts = [('en', '50_Creative work', ('Independent work', 'Commissions and collaborations')),
                    ('zh-TW', '50_創作', ('自主創作', '委託與共同創作'))]

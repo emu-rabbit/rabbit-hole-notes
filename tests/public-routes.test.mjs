@@ -101,3 +101,23 @@ test('new public recollections keep bilingual source scope and uncertain chronol
     assert.equal(source(locale, future[locale]).match(/^kind:.*$/m)[0], 'kind: "theme"');
   }
 });
+
+test('root entries separate orientation from routes and use portable Markdown links', () => {
+  for (const [locale, library] of Object.entries(libraries)) {
+    const expected = locale === 'en'
+      ? ['00_Entry/Profile.md', '00_Entry/Reading map.md', '00_Entry/Index.md', '20_Life chapters/Timeline.md', '80_Sources/Source index.md']
+      : ['00_入口/絵夢羽さ沂.md', '00_入口/閱讀地圖.md', '00_入口/索引.md', '20_人生脈絡/人生年表.md', '80_來源/來源目錄.md'];
+    for (const name of ['README.md', 'AGENTS.md']) {
+      const text = source(locale, name);
+      assert.doesNotMatch(text, /\[\[/, 'root entry links are standard Markdown');
+      const destinations = [...text.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)].map(match => match[1]);
+      const local = destinations.filter(path => !/^https?:/.test(path)).map(decodeURIComponent);
+      for (const path of [...expected, name === 'README.md' ? 'AGENTS.md' : 'README.md']) assert.ok(local.includes(path), `${locale} ${name} → ${path}`);
+      for (const path of local) assert.ok(library.notes.has(path), 'local target exists in the downloadable vault');
+    }
+    const entrance = source(locale, 'README.md');
+    assert.doesNotMatch(entrance, /→|30_Stories\/|30_故事\//, 'specific story routes belong in the map');
+    assert.ok(library.notes.get('AGENTS.md').backlinks.some(note => note.path === 'README.md'));
+    assert.ok(library.notes.get('README.md').backlinks.some(note => note.path === 'AGENTS.md'));
+  }
+});

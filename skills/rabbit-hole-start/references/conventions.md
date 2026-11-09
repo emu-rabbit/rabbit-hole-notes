@@ -18,7 +18,7 @@ Keep new masters private and use preview before authorized mutations. The helper
 
 Everyday companionship, mixed feelings and unfinished attempts deserve space alongside achievements. Keep different periods and later reflections distinct; do not invent growth, a neat ending or a universal character judgment. Let the owner’s pace and material determine the depth and structure.
 
-README welcomes readers, a profile such as `<Your name>.md` introduces the owner, the index lists content by section, and the reading map offers selected routes across sections based on readers’ interests. Link to the independent method when useful; do not inject its full text into a new vault.
+README states the version’s scope and directs readers to the profile, reading map, index, method, and AGENTS; specific routes belong in the reading map. AGENTS states the scope, question-led lookup, source checks, and action boundaries, and links back to README. Use relative Markdown file links in these root entries. A new vault begins with one Start note; add the profile, map, and index as real content grows. A profile such as `<Your name>.md` introduces the owner, the index lists content by section, and the reading map offers selected routes across sections based on readers’ interests. Link to the independent method when useful; do not inject its full text into a new vault.
 
 ## Keep evidence understandable
 

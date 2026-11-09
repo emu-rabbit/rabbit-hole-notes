@@ -87,4 +87,4 @@ Use the [[20_Life chapters/Timeline|timeline]] to see the order of events. To re
 
 Use the [[00_Entry/Index|index]] to find one note. Read the [Rabbit Hole Method](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/docs/method.en.md) to learn how these connections are organized.
 
-Return to the [[README|entrance]].
+Return to the [entrance](../README.md).

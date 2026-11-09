@@ -9,7 +9,7 @@
 ## 從哪裡開始
 
 - **想直接建立自己的兔子洞**：安裝[五個 skills](docs/skills.md)，從一段回憶或你挑選的本機材料起步。建立、匯入、訪談、整理與維護、準備分享版本各是一個完整入口；agent 負責寫作、串聯與走讀，資料預設留在私人工作區。
-- **想先感受兔子洞怎麼讀**：打開[中文範例](https://emu-rabbit.github.io/rabbit-hole-notes/reader/index.html?lang=zh-TW)。入口提供三條短路線，從一盒馬卡龍、一件工具，或她身邊的兩個人開始。範例裡的閱讀地圖再帶你走深。
+- **想先感受兔子洞怎麼讀**：打開[中文範例](https://emu-rabbit.github.io/rabbit-hole-notes/reader/index.html?lang=zh-TW)。README 說明各入口的用途，再從閱讀地圖挑一條感興趣的路線。
 - **想了解方法**：先看[網站介紹](https://emu-rabbit.github.io/rabbit-hole-notes/?lang=zh-TW)，再讀完整的[兔子洞筆記法](docs/method.zh-TW.md)。方法正文獨立於個人範例。
 - **想在 Obsidian 裡體驗**：在範例閱讀器按「下載範例」，解壓後將含 README.md 的資料夾開成儲存庫。從 README 開始，不需要社群外掛。
 - **想用英文閱讀**：從 [English website](https://emu-rabbit.github.io/rabbit-hole-notes/?lang=en) 進入 [English example](https://emu-rabbit.github.io/rabbit-hole-notes/reader-en/index.html?lang=en)。文章、來源譯文、資料夾與重要檔名都使用英文；閱讀器切換語言會前往同一篇的另一語言版本。

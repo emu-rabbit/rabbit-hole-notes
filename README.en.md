@@ -9,7 +9,7 @@ This repository holds the method website, a public example you can read in a bro
 ## Where to start
 
 - **Build your own rabbit hole**: Install the [five skills](docs/skills.en.md) and begin with one memory or selected local material. Starting, importing, interviewing, maintaining, and preparing a reading copy are complete goals. The agent handles writing, linking and re-reading, with private local defaults.
-- **Experience a rabbit hole**: Open the [English example](https://emu-rabbit.github.io/rabbit-hole-notes/reader-en/index.html?lang=en). Its entrance offers three short routes, beginning with a box of macarons, a useful tool, or two people in her life. The reading map offers more ways to continue.
+- **Experience a rabbit hole**: Open the [English example](https://emu-rabbit.github.io/rabbit-hole-notes/reader-en/index.html?lang=en). Its README explains the entry points; choose a route that interests you from the reading map.
 - **Learn the method**: Visit the [introduction](https://emu-rabbit.github.io/rabbit-hole-notes/?lang=en), then read the full [Rabbit Hole Method](<docs/method.en.md>). The translation includes English folder names and key filenames you can follow.
 - **Try it in Obsidian**: Choose “Download example” in the reader. Extract the ZIP and open the folder containing README.md as a vault. Start with that README; no community plugins are needed.
 - **Read the original Chinese**: Visit the [Chinese website](https://emu-rabbit.github.io/rabbit-hole-notes/?lang=zh-TW) or [Chinese example](https://emu-rabbit.github.io/rabbit-hole-notes/reader/index.html?lang=zh-TW). Switching languages in the reader takes you to the corresponding note.
