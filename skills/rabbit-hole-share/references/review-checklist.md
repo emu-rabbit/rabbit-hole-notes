@@ -14,7 +14,9 @@ Review the staged bytes and the reader’s experience, then record the outcome p
 
 - Markdown links, Wiki links, embeds, and footnotes lead to approved included material or intentionally approved external destinations. Check URLs, query strings, and fragments for disclosure too; inspect remote references without automatically fetching assets.
 - Dependencies on excluded material have an approved, truthful resolution. Source references accurately describe what the reader can access.
-- README, profile, index, and routes describe this copy. Walk the entrance, story, source, and return path as the intended reader, with a clear stopping point.
+- README gives this copy’s scope and entry choices; specific routes belong in the reading map. AGENTS describes the included material, question-led lookup, source checks, and authorization for actions beyond reading. Keep private maintenance instructions outside a public reading copy.
+- README and AGENTS link to one another and to included entry files with relative Markdown links. Keep a small copy’s single Start when appropriate; do not create empty profile, map, or index pages to imitate a larger vault.
+- Walk both routes: README → chosen entry → narrative → source → return, and AGENTS → question-led lookup → source verification → README. Verify links in the intended interfaces, distinguishing file-target checks from actual interface use.
 
 ## Review and delivery
 

@@ -25,13 +25,15 @@ That is why the rabbit hole exists. Like a video camera, it records your experie
 
 A rabbit hole begins with an overall picture of you, then goes deeper through life themes, life stages, stories, important relationships, creative work, and the people and things you like. Each section has its own place, and links bring them together: readers can get to know people through stories, or return from a project to your life when you made it.
 
-The root contains `README.md` and `AGENTS.md`, which provide basic information and initial guidance for people and agents respectively, and explain the purpose of each entry document. The profile lives in `00_Entry` and introduces you fully. This method stands outside individual vaults, explaining the method, structure, and principles; the entrance can link to it without copying its body. Sections `00` through `60`, `80`, and `90` are the shared main sections. Article topics and source subfolders develop according to your experiences, the materials you hold, and what you are willing to provide.
+The root `README.md` gives a concise orientation and scope, explains the profile, reading map, and index, and links to the method and `AGENTS.md`. Specific reading routes belong in the reading map. `AGENTS.md` explains the version’s scope, question-led lookup, source checking, and authorization for actions beyond reading, and links back to README. Use relative Markdown file links in these two entry files so they work on GitHub, the website, and in Obsidian.
+
+The profile lives in `00_Entry` and introduces you fully. This method stands outside individual vaults, explaining the method, structure, and principles; the entrance can link to it without copying its body. Sections `00` through `60`, `80`, and `90` are the shared main sections. Article topics and source subfolders develop according to your experiences, the materials you hold, and what you are willing to provide.
 
 **English-edition note:** This is a translation of the general method with English folder and key-file naming conventions. These names describe the same structure, not additional method features. Individual vaults use the parts of this structure supported by their material.
 
 ### 00_Entry: knowing where to begin
 
-Help readers get to know you, then follow their curiosity. The three entry notes serve different purposes:
+A new rabbit hole can begin with one Start note, without empty profile, map, or index files. README and AGENTS link to one another from the start. As content grows, the three entry notes serve different purposes:
 
 - `<Your name>.md`: a profile introducing your life, important relationships and creative work, so readers can form an overall picture of you.
 - `Reading map.md`: a few selected reading routes that let readers explore topics that interest them.

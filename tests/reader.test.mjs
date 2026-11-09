@@ -535,6 +535,7 @@ test('both example ZIPs carry the reserved-rights notice without adding notes or
     const entries = unzipStored(readFileSync(new URL(`../dist/downloads/${folder}.zip`, import.meta.url)));
     assert.equal(entries.size, 59);
     assert.equal([...entries.keys()].filter(path => path.endsWith('.md')).length, 58);
+    for (const name of ['README.md', 'AGENTS.md']) assert.equal(entries.get(name).toString('utf8'), text(`examples/${folder}/${name}`), 'ZIP retains the actual root entries');
     assert.equal(entries.get('LICENSE.txt').toString('utf8'), notice);
     assert.equal(text(`dist/downloads/${folder}-LICENSE.txt`), notice);
     assert.ok(!entries.has('MIT.txt'));
