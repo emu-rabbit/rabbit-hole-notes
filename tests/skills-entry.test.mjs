@@ -141,10 +141,20 @@ test('import guides introduce social exports and link to their supported-format 
 
 test('bilingual sharing descriptions retain user control and require a separate MCP connection', () => {
   const source = read('src/web/index.html');
-  const chinese = source.match(/<p data-i18n="afterBuildingIntro">([^<]+)<\/p>/)[1];
+  const paragraph = source.match(/<p class="after-building-intro">([\s\S]*?)<\/p>/)[1];
+  const chinese = paragraph.replace(/<[^>]*>/g, '');
   for (const text of ['信任的對象', '支援 Markdown', '資料夾的層次', '如果另行準備了合適的 MCP 連接工具', '你允許的範圍']) assert.ok(chinese.includes(text));
-  for (const text of ['people you trust', 'supports Markdown', 'folder structure', 'MCP connection set up separately', 'scope you allow']) assert.ok(siteEnglish.afterBuildingIntro.includes(text));
+  for (const text of ['people you trust', 'supports Markdown', 'folder structure', 'MCP connection set up separately', 'scope you allow']) assert.ok((siteEnglish.afterBuildingIntro + siteEnglish.afterBuildingMcp).includes(text));
   assert.ok(localizeHtml(source, siteEnglish).includes(siteEnglish.afterBuildingIntro));
+  assert.equal(chinese, '兔子洞就像一座以你為中心的 wiki 圖書館，讓走進來的人或 AI 代理人，能循著你的故事、關係與作品認識你，試著理解你。你可以把它分享給信任的對象，讓對方用支援 Markdown 的軟體，依資料夾的層次翻閱文件（如 Obsidian）；如果另行準備了合適的 MCP 連接工具，也可以讓 AI 代理人在你允許的範圍內讀取。');
+  for (const html of [source, localizeHtml(source, siteEnglish)]) {
+    const body = html.match(/<p class="after-building-intro">([\s\S]*?)<\/p>/)[1];
+    const links = [...body.matchAll(/<a\b([^>]*)>Obsidian<\/a>/g)];
+    assert.equal(links.length, 1, 'the inline link survives localization');
+    assert.ok(links[0][1].includes('href="https://obsidian.md/"'));
+    assert.ok(links[0][1].includes('target="_blank"'));
+    assert.ok(links[0][1].includes('rel="noopener noreferrer"'));
+  }
   assert.ok(source.includes('也建議交予之前人工確認過每個頁面是否有不該洩漏的內容'));
   assert.ok(siteEnglish.afterBuildingSharing.includes('review each page yourself'));
 });
