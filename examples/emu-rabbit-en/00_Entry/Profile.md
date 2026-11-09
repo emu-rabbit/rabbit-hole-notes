@@ -2,7 +2,7 @@
 id: "person-emu-public"
 kind: "person"
 title: "Emu-rabbit"
-updated: "2026-11-07"
+updated: "2026-11-09"
 ---
 
 # Emu-rabbit
@@ -13,7 +13,9 @@ She often finds ideas for tools in daily life: reports repeatedly assembled in o
 
 She loves writing introductions about herself. Each time, she asks again who she is, what she likes, and where she wants to go at that moment. When collaborating with AI on her personal website, she still [[30_Stories/Chapters/Keeping her own words when working with AI|wrote the words herself and set her own rhythm]]. Her portfolio is a box of macarons, remembering a shop that has closed. After her golden hamster [[40_Important relationships/Pets/Mengmeng|Mengmeng]] died, Mengmeng continued to live in her game.[^3]
 
-In relationships, she longs to [[10_Self and daily life/Freedom, honesty, and relationships|love freely and honestly]], and wants to care well for those beside her. [[40_Important relationships/People/Doggo|Doggo]] and [[40_Important relationships/People/Kitty|Kitty]] are her two current partners. She also remembers different moments with each of her three former masters. With her [[40_Important relationships/People/Mother|mother]], she later became able to say with a smile that she wanted to go home for dinner more often again.[^2][^4]
+She is a [BDSMer](https://en.wikipedia.org/wiki/BDSM "BDSM concept overview (Wikipedia)")[^6] and practices [non-monogamy](https://en.wikipedia.org/wiki/Non-monogamy "Non-monogamy concept overview (Wikipedia)"). In relationships, she longs to [[10_Self and daily life/Freedom, honesty, and relationships|love freely and honestly]], and wants to care well for those beside her.[^2]
+
+[[40_Important relationships/People/Doggo|Doggo]] and [[40_Important relationships/People/Kitty|Kitty]] are her two current partners. She also remembers different moments with each of her three former masters. With her [[40_Important relationships/People/Mother|mother]], she later became able to say with a smile that she wanted to go home for dinner more often again.[^2][^4]
 
 In [[60_Favorites/Games/Minecraft|Minecraft]], she enjoys automated production lines and cares about neatly arranged pipes. Recalling [[10_Self and daily life/Seeing a future before thinking of saving|how she began saving]], she remembers seeing a future before thinking of saving and learning to manage money.[^5]
 
@@ -26,3 +28,5 @@ Her public profile is [Window-side Notes](https://emu-rabbit.github.io/).
 [^4]: [[80_Sources/Relationship recollections/Moments together|Relationship recollections]].
 
 [^5]: [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-minecraft-pipes|Minecraft interview excerpts]]; [[80_Sources/Interviews/Everyday life, games, and the future#^everyday-future|Correcting the sequence of saving]].
+
+[^6]: [[80_Sources/Public profiles/Window-side Notes excerpts#^gh-032|The author’s BDSMer self-description in her public profile]].
