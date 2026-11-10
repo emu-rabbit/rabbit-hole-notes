@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # Six years of macarons in a portfolio
 
-Emu-rabbit had long wanted to make a portfolio, but could not find an idea that made her want to start. One day in the shower, “macarons” suddenly came to mind, and she decided to make her portfolio a box of macarons.[^1]
+Emu-Rabbit had long wanted to make a portfolio, but could not find an idea that made her want to start. One day in the shower, “macarons” suddenly came to mind, and she decided to make her portfolio a box of macarons.[^1]
 
 There was a shop she considered [[60_Favorites/Places/A macaron shop loved for six years|the best macaron shop]]: distinctive designs, generous fillings, something special about every macaron, and most importantly, not too sweet. She put those things she loved into every corner of the portfolio.[^1]
 

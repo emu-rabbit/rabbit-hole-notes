@@ -1,6 +1,6 @@
 # 授權範圍 / License scope
 
-Copyright © 2026 絵夢羽さ沂 (Emu-rabbit) and contributors. 本專案依內容分別授權，不以單一授權涵蓋整個 repo。以下範圍同樣適用於網站、下載與安裝副本；第三方權利與另行標示優先。
+Copyright © 2026 絵夢羽さ沂 (Emu-Rabbit) and contributors. 本專案依內容分別授權，不以單一授權涵蓋整個 repo。以下範圍同樣適用於網站、下載與安裝副本；第三方權利與另行標示優先。
 
 This repository uses separate licenses by material. The scopes below also apply to rendered pages, downloads and installed copies; third-party rights and explicit exceptions take priority.
 
@@ -12,9 +12,9 @@ The project's original root READMEs, documentation in `docs/`, and method/tutori
 
 分享或改寫這些內容時，保留作者姓名、來源連結與授權／免責聲明，標示修改（含翻譯）並保留既有修改註記。可以依媒介合理署名，例如（原樣分享時省略改寫／翻譯註記）：
 
-> 〈兔子洞筆記法〉，絵夢羽さ沂（Emu-rabbit），https://github.com/emu-rabbit/rabbit-hole-notes ，CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ 。本版本有改寫／翻譯。
+> 〈兔子洞筆記法〉，絵夢羽さ沂（Emu-Rabbit），https://github.com/emu-rabbit/rabbit-hole-notes ，CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ 。本版本有改寫／翻譯。
 
-When sharing or adapting, retain the supplied creator credit, source link, license and warranty-disclaimer notices; indicate changes, including translation, and retain prior change notices. A reasonable credit is “Rabbit Hole Method by 絵夢羽さ沂 (Emu-rabbit), https://github.com/emu-rabbit/rabbit-hole-notes, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/; adapted/translated.” Omit the change statement for an unchanged copy. These examples do not add conditions to CC BY 4.0 or imply endorsement.
+When sharing or adapting, retain the supplied creator credit, source link, license and warranty-disclaimer notices; indicate changes, including translation, and retain prior change notices. A reasonable credit is “Rabbit Hole Method by 絵夢羽さ沂 (Emu-Rabbit), https://github.com/emu-rabbit/rabbit-hole-notes, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/; adapted/translated.” Omit the change statement for an unchanged copy. These examples do not add conditions to CC BY 4.0 or imply endorsement.
 
 ## MIT — 程式、skills 與虛構測試 / Software, skills and fictional tests
 

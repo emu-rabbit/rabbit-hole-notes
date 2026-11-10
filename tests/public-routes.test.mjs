@@ -76,7 +76,7 @@ test('translations retain note identity, source dates and external locators', ()
       assert.ok(english.includes(methodSourceUrls.en));
     }
     const urls = (text, locale) => [...text.matchAll(/https?:\/\/[^\s)]+/g)].map(match => match[0]).filter(url => !methodUrls.has(url)).map(url => {
-      const concept = pair.en === '00_Entry/Profile.md' ? conceptUrls[locale].indexOf(url) : -1;
+      const concept = pair.en === '00_Entry/Emu-Rabbit.md' ? conceptUrls[locale].indexOf(url) : -1;
       return concept < 0 ? url : `concept:${concept}`;
     }).sort();
     assert.deepEqual(urls(english, 'en'), urls(chinese, 'zh-TW'), pair.en + ' external sources and equivalent concept references');
@@ -112,7 +112,7 @@ test('new public recollections keep bilingual source scope and uncertain chronol
 test('root entries separate orientation from routes and use portable Markdown links', () => {
   for (const [locale, library] of Object.entries(libraries)) {
     const expected = locale === 'en'
-      ? ['00_Entry/Profile.md', '00_Entry/Reading map.md', '00_Entry/Index.md', '20_Life chapters/Timeline.md', '80_Sources/Source index.md']
+      ? ['00_Entry/Emu-Rabbit.md', '00_Entry/Reading map.md', '00_Entry/Index.md', '20_Life chapters/Timeline.md', '80_Sources/Source index.md']
       : ['00_入口/絵夢羽さ沂.md', '00_入口/閱讀地圖.md', '00_入口/索引.md', '20_人生脈絡/人生年表.md', '80_來源/來源目錄.md'];
     for (const name of ['README.md', 'AGENTS.md']) {
       const text = source(locale, name);
@@ -130,7 +130,7 @@ test('root entries separate orientation from routes and use portable Markdown li
 });
 
 test('profile identities use general concept links separately from personal source footnotes', () => {
-  const pair = mappings.find(pair => pair.en === '00_Entry/Profile.md');
+  const pair = mappings.find(pair => pair.en === '00_Entry/Emu-Rabbit.md');
   for (const locale of ['zh-TW', 'en']) {
     const text = source(locale, pair[locale]);
     const [body, footnotes] = text.split(locale === 'en' ? '## Sources' : '## 來源');

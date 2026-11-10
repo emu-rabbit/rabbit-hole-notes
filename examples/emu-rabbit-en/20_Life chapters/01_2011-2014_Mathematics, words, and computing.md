@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # 2011–2014: Mathematics, words, and computing
 
-In high school, Emu-rabbit had things she wanted to do in mathematics, computing, and writing. She enjoyed investigating mathematical problems and was fascinated by using computers to solve problems. She had started writing modern poetry in junior high and continued in high school.[^1][^2][^3]
+In high school, Emu-Rabbit had things she wanted to do in mathematics, computing, and writing. She enjoyed investigating mathematical problems and was fascinated by using computers to solve problems. She had started writing modern poetry in junior high and continued in high school.[^1][^2][^3]
 
 ## Classmates and comparing abilities
 Her exceptionally talented peers made her feel panicked and inferior. But she also remembers them as wonderful people with whom she shared close bonds, and she still loved high school life.[^1]

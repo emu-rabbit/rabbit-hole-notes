@@ -7,7 +7,7 @@ updated: "2026-11-07"
 
 # The hour hand at four forty
 
-One childhood homework assignment asked her to draw a clock showing four forty. Emu-rabbit did not leave the hour hand on four. She placed it about two-thirds of the way between four and five, and her teacher praised her. Recalling the assignment, she said she seemed reasonably good at understanding mathematics and doing the work well.[^1]
+One childhood homework assignment asked her to draw a clock showing four forty. Emu-Rabbit did not leave the hour hand on four. She placed it about two-thirds of the way between four and five, and her teacher praised her. Recalling the assignment, she said she seemed reasonably good at understanding mathematics and doing the work well.[^1]
 
 On another occasion, she was waiting in line for her teacher to mark written arithmetic when she pointed out a place that might need borrowing. The teacher's marking later confirmed she was right, which made her happy. Both scenes are her later recollections; the exact school years and calendar years have not been established.[^1]
 

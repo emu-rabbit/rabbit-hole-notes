@@ -1,12 +1,12 @@
-# Emu-rabbit's Rabbit Hole
+# Emu-Rabbit's Rabbit Hole
 
-Emu-rabbit likes programming, games, and writing about her life. These notes bring together a few experiences of learning, creating, dressing, and spending time with others. A project can lead you into a memory; a person can lead you to a moment they shared.
+Emu-Rabbit likes programming, games, and writing about her life. These notes bring together a few experiences of learning, creating, dressing, and spending time with others. A project can lead you into a memory; a person can lead you to a moment they shared.
 
 This is a public selection of 58 notes organized with the Rabbit Hole Method. It keeps the pseudonyms and excerpt markings used in the Chinese selection and covers the same material. The English text is a translation, including the quoted passages. The Chinese edition preserves the published Chinese wording.
 
 ## Where to begin
 
-- [Profile](00_Entry/Profile.md): meet Emu-rabbit through her life, important relationships, and creative work.
+- [Profile](00_Entry/Emu-Rabbit.md): meet Emu-Rabbit through her life, important relationships, and creative work.
 - [Reading map](00_Entry/Reading%20map.md): choose a route by interest, with places to pause along the way.
 - [Index](00_Entry/Index.md): find a particular person, story, or project by section.
 

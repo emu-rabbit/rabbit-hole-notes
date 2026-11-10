@@ -18,7 +18,7 @@ import { homeDescriptions, homePaths, noteDescription, renderMetadata, renderSit
 const mappings = JSON.parse(readFileSync(new URL('./example-paths.json', import.meta.url)));
 const locales = [
   { locale: 'zh-TW', folder: 'emu-rabbit-tw', route: 'reader', title: '絵夢羽さ沂的兔子洞' },
-  { locale: 'en', folder: 'emu-rabbit-en', route: 'reader-en', title: "Emu-rabbit's Rabbit Hole" },
+  { locale: 'en', folder: 'emu-rabbit-en', route: 'reader-en', title: "Emu-Rabbit's Rabbit Hole" },
 ];
 for (const config of locales) {
   config.directory = fileURLToPath(new URL(`../../examples/${config.folder}/`, import.meta.url));

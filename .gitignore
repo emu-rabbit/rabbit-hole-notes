@@ -1,4 +1,5 @@
 /dist/
+.obsidian
 
 __pycache__/
 *.py[cod]

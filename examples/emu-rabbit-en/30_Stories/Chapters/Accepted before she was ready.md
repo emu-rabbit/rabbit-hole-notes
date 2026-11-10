@@ -7,9 +7,9 @@ updated: "2026-11-06"
 
 # Accepted before she was ready
 
-While dating [[40_Important relationships/People/First master|her first master]], Emu-rabbit could not yet bring herself to [[10_Self and daily life/Dressing as she likes|wear women's clothes again]]. She did not like dressing herself up in men's clothes either, and once apologized to her partner for this.[^1]
+While dating [[40_Important relationships/People/First master|her first master]], Emu-Rabbit could not yet bring herself to [[10_Self and daily life/Dressing as she likes|wear women's clothes again]]. She did not like dressing herself up in men's clothes either, and once apologized to her partner for this.[^1]
 
-Her partner gently replied that it was all right. When Emu-rabbit later recalled the relationship, she still remembered that answer.[^1]
+Her partner gently replied that it was all right. When Emu-Rabbit later recalled the relationship, she still remembered that answer.[^1]
 
 ## Sources
 [^1]: [[80_Sources/Relationship recollections/Moments together#First master: acceptance|The author's relationship recollections]].

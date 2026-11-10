@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # Making things
 
-Emu-rabbit wanted to become an engineer because she liked solving problems. She is fascinated by the moment a difficulty of her own or someone else's is resolved, and believes this is where the value of software lies. Games, technical curiosity, and memories she wants to keep can also lead her to start creating.[^1][^3][^5]
+Emu-Rabbit wanted to become an engineer because she liked solving problems. She is fascinated by the moment a difficulty of her own or someone else's is resolved, and believes this is where the value of software lies. Games, technical curiosity, and memories she wants to keep can also lead her to start creating.[^1][^3][^5]
 
 ## Making tools that help
 In operations work, she turned reports that required repeatedly assembling fields into a [[30_Stories/Chapters/Turning repeated reports into one click|one-click copy extension]] the whole team could use. Playing FF14, she made the [[50_Creative work/Independent work/Frozen Rabbit Workshop|Workshop]] to address the hassle of organizing materials, flattening nested recipes into a list. Receiving players' thanks and affection was when she felt the greatest sense of achievement.[^2]

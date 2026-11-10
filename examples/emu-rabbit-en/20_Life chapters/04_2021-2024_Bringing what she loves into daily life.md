@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # 2021–2024: Bringing what she loves into daily life
 
-During this period, Emu-rabbit attended a work party wearing clothes she liked. She also kept learning, moving beyond frontend development into Flutter, Firebase, and basic color design.[^1][^2]
+During this period, Emu-Rabbit attended a work party wearing clothes she liked. She also kept learning, moving beyond frontend development into Flutter, Firebase, and basic color design.[^1][^2]
 
 ## An answer at a work party
 Someone asked whether she was cosplaying. She said she was not; she simply liked wearing women's clothes. It was a conversation she still remembered when recalling [[30_Stories/Chapters/Wearing what she likes to a work party|that work party]].[^1]

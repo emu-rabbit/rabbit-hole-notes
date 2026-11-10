@@ -4,7 +4,7 @@
 
 A note-taking method for documenting a life. A rabbit hole brings together experiences, important people, relationships, stories, and creative work, so someone arriving later, whether a person or an agent, can get to know you through time and connections.
 
-This repository holds the method website, a public example you can read in a browser, the website's source code, and an installable Rabbit Hole skills toolkit. The example contains 58 selected notes Emu-rabbit has chosen to share. Its English edition covers the same material as the Chinese edition. You can start with a short story before learning how the notes are organized.
+This repository holds the method website, a public example you can read in a browser, the website's source code, and an installable Rabbit Hole skills toolkit. The example contains 58 selected notes Emu-Rabbit has chosen to share. Its English edition covers the same material as the Chinese edition. You can start with a short story before learning how the notes are organized.
 
 ## Where to start
 
@@ -20,7 +20,7 @@ You can also download the [English example ZIP](https://emu-rabbit.github.io/rab
 
 A project can lead back to the life around its creation. A person can lead to a shared scene. Footnotes lead to sources, keeping records from the time distinct from later recollections. Unfinished attempts and everyday companionship have a place alongside completed work.
 
-The example's README offers a way in. [Profile.md](examples/emu-rabbit-en/00_Entry/Profile.md) introduces its owner, the reading map offers routes across sections based on readers’ interests, and the index lists content by section to help you find a particular note. The reader also has a full file tree, but you do not need to learn the sections before you begin.
+The example's README offers a way in. [Emu-Rabbit.md](examples/emu-rabbit-en/00_Entry/Emu-Rabbit.md) introduces its owner, the reading map offers routes across sections based on readers’ interests, and the index lists content by section to help you find a particular note. The reader also has a full file tree, but you do not need to learn the sections before you begin.
 
 This public selection uses one index across its sections, without relationship circles or a maintenance section. To organize your own creative work, put work you lead in Independent work, and work you participate in through commissioning, ideas or collaboration in Commissions and collaborations. Place pages directly in their folder, use indexes for medium and theme, and add subfolders when content needs separate organization. See the [method’s creative-work guidance](docs/method.en.md).
 

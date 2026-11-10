@@ -7,7 +7,7 @@ updated: "2026-11-07"
 
 # Learning, comparison, and what stays
 
-Emu-rabbit likes solving problems and is fascinated by using computers as fast, precise tools. Comparing abilities has also made her feel panicked and inferior. Later, learning new technologies gave her a sense of security because she knew those skills would stay with her.[^1][^2]
+Emu-Rabbit likes solving problems and is fascinated by using computers as fast, precise tools. Comparing abilities has also made her feel panicked and inferior. Later, learning new technologies gave her a sense of security because she knew those skills would stay with her.[^1][^2]
 
 ## Comparison and a change of direction in high school
 [[20_Life chapters/01_2011-2014_Mathematics, words, and computing|In high school]], her exceptionally talented peers made her uneasy, but they were also people she liked and shared close bonds with. She did mathematical research she enjoyed, yet after submitting it she did not receive the response she hoped for. Her focus gradually shifted toward computing. Programming really did make her happy.[^1]

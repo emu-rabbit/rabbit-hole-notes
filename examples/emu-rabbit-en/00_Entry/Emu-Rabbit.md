@@ -1,13 +1,13 @@
 ---
 id: "person-emu-public"
 kind: "person"
-title: "Emu-rabbit"
+title: "Emu-Rabbit"
 updated: "2026-11-09"
 ---
 
-# Emu-rabbit
+# Emu-Rabbit
 
-Emu-rabbit likes programming, playing games, and writing about her life. She wants to be an engineer because she is fascinated by the moment a problem is solved, whether it is her own difficulty or someone else's need.[^1]
+Emu-Rabbit likes programming, playing games, and writing about her life. She wants to be an engineer because she is fascinated by the moment a problem is solved, whether it is her own difficulty or someone else's need.[^1]
 
 She often finds ideas for tools in daily life: reports repeatedly assembled in operations work became a [[30_Stories/Chapters/Turning repeated reports into one click|one-click copying plugin]], and the hassle of gathering materials in FF14 became [[50_Creative work/Independent work/Frozen Rabbit Workshop|the Workshop]]. Games and technical curiosity also prompt her to make things, including [[50_Creative work/Independent work/FoodPower|FoodPower]] and [[50_Creative work/Independent work/LinkArray|LinkArray]].
 

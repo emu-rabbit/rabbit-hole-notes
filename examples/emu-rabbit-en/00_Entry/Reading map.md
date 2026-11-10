@@ -15,7 +15,7 @@ Start with something you are curious about and choose one route. Arrows suggest 
 
 The first story begins with an idea in the shower and leads to a shop that has closed. The second keeps another kind of companionship. You can pause when Mengmeng has found a place in the game.
 
-To hear Emu-rabbit's own account, read the passages about [[80_Sources/Public work/The letter at the bottom of the box#^gh-006|macarons]] and [[80_Sources/Public work/Project introduction excerpts#^gh-032|Mengmeng]]. If you are curious about the game itself, visit [[50_Creative work/Independent work/nAnB|nAnB]]. Its project description is optional, rather than another required telling of the memory.
+To hear Emu-Rabbit's own account, read the passages about [[80_Sources/Public work/The letter at the bottom of the box#^gh-006|macarons]] and [[80_Sources/Public work/Project introduction excerpts#^gh-032|Mengmeng]]. If you are curious about the game itself, visit [[50_Creative work/Independent work/nAnB|nAnB]]. Its project description is optional, rather than another required telling of the memory.
 
 To get to know Mengmeng beyond the game, continue to [[40_Important relationships/Pets/Mengmeng#Exploring the room|exploring the room and the chewed towel]].
 
@@ -49,7 +49,7 @@ To meet the person in the first scene, visit [[40_Important relationships/People
 
 [[40_Important relationships/People/Doggo|Doggo]] → [[40_Important relationships/People/Kitty|Kitty]]
 
-First see Doggo's smile over a good meal, then meet Kitty, who takes chores seriously while Emu-rabbit wants more time together on a date. Each profile introduces one person and a glimpse of daily life. You can stop after the pair.
+First see Doggo's smile over a good meal, then meet Kitty, who takes chores seriously while Emu-Rabbit wants more time together on a date. Each profile introduces one person and a glimpse of daily life. You can stop after the pair.
 
 For how she describes her hopes for relationships, read [[80_Sources/Public profiles/Window-side Notes excerpts#^gh-029|freedom and love in her public profile]]. You can also read [[30_Stories/Chapters/Caring takes energy and rest|Caring takes energy and rest]] for the times she needs to rest while caring for people.
 
