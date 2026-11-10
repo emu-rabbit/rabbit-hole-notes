@@ -348,8 +348,9 @@ test('renamed public people retain published URLs, heading fragments and languag
 
 
 test('relationship directory moves preserve page URLs, navigation and downloadable paths', () => {
-  assert.equal(relocatedPublicNotes.length, 16);
-  for (const {locale, from, to} of relocatedPublicNotes) {
+  const relationships = relocatedPublicNotes.filter(({to}) => to.startsWith('40_'));
+  assert.equal(relationships.length, 16);
+  for (const {locale, from, to} of relationships) {
     const original = renamedPublicNotes.find(rename => rename.to === to)?.from ?? from;
     assert.equal(noteFile(to), `note-${createHash('sha256').update(original).digest('hex')}.html`);
     assert.equal(noteFile(to), noteFile(from));
@@ -442,7 +443,7 @@ test('nine sections distinguish generic profiles from real linked bilingual exam
     const anchors = tags(html, 'a');
     assert.equal(anchors.length, 25);
     for (const {href} of anchors) assert.ok(mappings.some(pair => href === `./${locale === 'en' ? 'reader-en' : 'reader'}/${noteFile(pair[locale])}`), href);
-    const profile = mappings.find(pair => pair.en === '00_Entry/Profile.md');
+    const profile = mappings.find(pair => pair.en === '00_Entry/EmuRabbit.md');
     assert.ok(html.includes(`href="./${locale === 'en' ? 'reader-en' : 'reader'}/${noteFile(profile[locale])}"`));
     assert.doesNotMatch(html, /href="[^"]*90_/);
   }
@@ -676,4 +677,23 @@ test('example downloads explain unzipping for Obsidian in both languages', () =>
     assert.equal(link[2].replace(/<[^>]+>/g, ''), label);
     assert.match(link[2], /<span data-i18n="downloadExample">[^<]+<\/span><span data-i18n="downloadExampleHint">[^<]+<\/span>/);
   }
+});
+
+
+test('English named profile uses the owner filename while retaining its published reader URL', () => {
+  const current = '00_Entry/EmuRabbit.md';
+  const old = '00_Entry/Profile.md';
+  const profile = readFileSync(new URL('../examples/emu-rabbit-en/' + current, import.meta.url), 'utf8');
+  assert.ok(!existsSync(new URL('../examples/emu-rabbit-en/' + old, import.meta.url)));
+  assert.match(profile, /id: "person-emu-public"/);
+  assert.match(profile, /title: "Emu-rabbit"/);
+  assert.match(profile, /^# Emu-rabbit$/m);
+  assert.equal(noteFile(current), 'note-2b50f3f8636e64c2b322f9372aba427c65ee659f385362df4b4fb9b7715fbb30.html');
+  assert.equal(noteFile(current), noteFile(old));
+  const html = readFileSync(buildFile('reader-en/' + noteFile(current)), 'utf8');
+  assert.ok(html.includes('EmuRabbit.md'));
+  assert.ok(!html.includes('Profile.md'));
+  const archive = readFileSync(buildFile('downloads/emu-rabbit-en.zip'));
+  assert.ok(archive.includes(Buffer.from(current)));
+  assert.ok(!archive.includes(Buffer.from(old)));
 });

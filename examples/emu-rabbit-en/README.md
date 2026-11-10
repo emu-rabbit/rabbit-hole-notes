@@ -6,7 +6,7 @@ This is a public selection of 58 notes organized with the Rabbit Hole Method. It
 
 ## Where to begin
 
-- [Profile](00_Entry/Profile.md): meet Emu-rabbit through her life, important relationships, and creative work.
+- [Profile](00_Entry/EmuRabbit.md): meet Emu-rabbit through her life, important relationships, and creative work.
 - [Reading map](00_Entry/Reading%20map.md): choose a route by interest, with places to pause along the way.
 - [Index](00_Entry/Index.md): find a particular person, story, or project by section.
 

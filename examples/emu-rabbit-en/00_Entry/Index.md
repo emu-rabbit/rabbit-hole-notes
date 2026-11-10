@@ -8,7 +8,7 @@ updated: "2026-11-07"
 # Index
 
 ## 00 Entry
-[[00_Entry/Profile|Profile]] · [[00_Entry/Reading map|Reading map]] · [Rabbit Hole Method](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/docs/method.en.md)
+[[00_Entry/EmuRabbit|Profile]] · [[00_Entry/Reading map|Reading map]] · [Rabbit Hole Method](https://github.com/emu-rabbit/rabbit-hole-notes/blob/main/docs/method.en.md)
 
 ## 10 Self and daily life
 [[10_Self and daily life/Making things|Making things]] · [[10_Self and daily life/Learning, comparison, and what stays|Learning, comparison, and what stays]] · [[10_Self and daily life/Dressing as she likes|Dressing as she likes]] · [[10_Self and daily life/Freedom, honesty, and relationships|Freedom, honesty, and relationships]]

@@ -6,7 +6,7 @@ Help readers get to know you, then follow their curiosity. The three entry notes
 - [`Reading map.md`](<../../examples/emu-rabbit-en/00_Entry/Reading map.md>): a few selected reading routes that let readers explore topics that interest them.
 - [`Index.md`](<../../examples/emu-rabbit-en/00_Entry/Index.md>): content listed by section, making it easy to find a particular article and see what the rabbit hole contains.
 
-The public example is Emu-rabbit's rabbit hole. Its profile is named [`Profile.md`](<../../examples/emu-rabbit-en/00_Entry/Profile.md>) in the English edition.
+The public example is Emu-rabbit's rabbit hole, so its profile is named [`EmuRabbit.md`](<../../examples/emu-rabbit-en/00_Entry/EmuRabbit.md>).
 
 ## 10_Self and daily life: See what carries across different periods
 

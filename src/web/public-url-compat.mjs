@@ -9,9 +9,10 @@ export const renamedPublicNotes = [
   { locale: 'en', from: '40_Important people/People/Former master C.md', to: '40_Important relationships/People/Ex-girlfriend.md', oldHeading: 'former-master-c', heading: 'ex-girlfriend' },
 ];
 
-// Directory moves keep the already-published page identity; Markdown and ZIP
+// Path changes keep the already-published page identity; Markdown and ZIP
 // paths use the current classification only.
 export const relocatedPublicNotes = [
+  { locale: 'en', from: '00_Entry/Profile.md', to: '00_Entry/EmuRabbit.md' },
   { locale: 'zh-TW', from: '40_重要他人/人物/前女友.md', to: '40_重要關係/人物/前女友.md' },
   { locale: 'en', from: '40_Important people/People/Ex-girlfriend.md', to: '40_Important relationships/People/Ex-girlfriend.md' },
   { locale: 'zh-TW', from: '40_重要他人/人物/前主人.md', to: '40_重要關係/人物/前主人.md' },
