@@ -7,10 +7,10 @@ updated: "2026-11-06"
 
 # Freedom, honesty, and relationships
 
-Emu-rabbit longs for free, honest relationships. She often wonders whether people can still firmly choose each other when they are free enough and honest enough. She does not want to hold tightly to anyone out of fear of losing them, or hide her own desires. As long as she can still care well for the partners beside her, she wants to keep exploring her love.[^1]
+Emu-Rabbit longs for free, honest relationships. She often wonders whether people can still firmly choose each other when they are free enough and honest enough. She does not want to hold tightly to anyone out of fear of losing them, or hide her own desires. As long as she can still care well for the partners beside her, she wants to keep exploring her love.[^1]
 
 ## Daily life with two partners
-[[40_Important relationships/People/Doggo|Doggo]] and [[40_Important relationships/People/Kitty|Kitty]] are deeply important partners with whom she wants to spend her life. Seeing Doggo enjoy food makes her happy too. Kitty takes housework seriously, and sometimes Emu-rabbit explicitly asks for no chores during a date so they can interact more.[^1][^2]
+[[40_Important relationships/People/Doggo|Doggo]] and [[40_Important relationships/People/Kitty|Kitty]] are deeply important partners with whom she wants to spend her life. Seeing Doggo enjoy food makes her happy too. Kitty takes housework seriously, and sometimes Emu-Rabbit explicitly asks for no chores during a date so they can interact more.[^1][^2]
 
 ## Past master–pet relationships
 [[40_Important relationships/People/First master|Her first master]] gently told her it was all right when she was not yet ready to wear women's clothes again. She also remembers telling [[40_Important relationships/People/Former master|her former master]] how she was feeling when she was low, and her partner coming to keep her company at a bench.[^2]

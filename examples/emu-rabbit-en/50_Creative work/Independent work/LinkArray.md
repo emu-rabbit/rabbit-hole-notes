@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # LinkArray
 
-LinkArray is a data-structure experiment Emu-rabbit made in 2020, attempting to combine arrays and linked lists. The idea came from material she learned in university. She particularly liked linked lists and wanted to see what combining the two would be like.[^1]
+LinkArray is a data-structure experiment Emu-Rabbit made in 2020, attempting to combine arrays and linked lists. The idea came from material she learned in university. She particularly liked linked lists and wanted to see what combining the two would be like.[^1]
 
 She threw herself enthusiastically into it and produced a result she was happy with, but did not know where to publish it or how to find related research.[^2]
 

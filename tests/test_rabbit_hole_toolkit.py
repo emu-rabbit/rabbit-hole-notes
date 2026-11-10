@@ -161,6 +161,7 @@ class ToolkitTests(unittest.TestCase):
                 self.assertIn('across sections by topic' if lang == 'en' else '跨分區路線', starter)
                 self.assertNotIn('Emu Usagi', starter)
                 self.assertNotIn('Emu-rabbit', starter)
+                self.assertNotIn('Emu-Rabbit', starter)
                 self.assertNotIn('絵夢羽さ沂', starter)
                 self.assertNotIn('Dolls/', starter)
                 self.assertNotIn('玩偶/', starter)

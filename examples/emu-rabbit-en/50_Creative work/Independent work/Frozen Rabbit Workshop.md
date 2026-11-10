@@ -7,20 +7,20 @@ updated: "2026-11-07"
 
 # Frozen Rabbit Workshop
 
-Frozen Rabbit Workshop is a materials-planning tool Emu-rabbit made for Final Fantasy XIV players. She enjoys the game's crafting jobs, but nested recipes and making several pieces of gear at once made preparing materials troublesome.[^1]
+Frozen Rabbit Workshop is a materials-planning tool Emu-Rabbit made for Final Fantasy XIV players. She enjoys the game's crafting jobs, but nested recipes and making several pieces of gear at once made preparing materials troublesome.[^1]
 
 ## Flattening nested recipes into a list
-Many tools display nested structures following recipe dependencies. Emu-rabbit felt that while this was logical, what players cared about most was exactly which materials they needed to prepare, so she decided to organize them directly into a flat list.[^2]
+Many tools display nested structures following recipe dependencies. Emu-Rabbit felt that while this was logical, what players cared about most was exactly which materials they needed to prepare, so she decided to organize them directly into a flat list.[^2]
 
 She had previously made a [[30_Stories/Chapters/Turning repeated reports into one click|one-click reporting extension]], turning scattered information into immediately usable text. That project addressed her operations colleagues' reporting work; the Workshop handles players' materials preparation.[^4]
 
 ## Player feedback
-The Workshop received many messages of thanks and affection. Emu-rabbit said these were her most fulfilling moments, reinforcing her belief that software ultimately needs to serve people.[^3]
+The Workshop received many messages of thanks and affection. Emu-Rabbit said these were her most fulfilling moments, reinforcing her belief that software ultimately needs to serve people.[^3]
 
 She also has another FF14 tool, [[50_Creative work/Independent work/Frozen Rabbit Tome|Frozen Rabbit Tome]], which helps players choose gathering strategies and simulate skill combinations.[^5]
 
 ## Being recognized in the game
-Recalling interactions with players, Emu-rabbit compared the Workshop to an outgoing, popular child, because it solved so many players' material-preparation problems. She put her player ID in the website title and was often recognized in the game afterward. Players praised her work, making her happy and satisfying her wish to be seen.[^6]
+Recalling interactions with players, Emu-Rabbit compared the Workshop to an outgoing, popular child, because it solved so many players' material-preparation problems. She put her player ID in the website title and was often recognized in the game afterward. Players praised her work, making her happy and satisfying her wish to be seen.[^6]
 
 “Frozen rabbit meat” that could not actually be eaten also became a frequent joke. Some people wanted to roast it, others to microwave it, and others called it three-cup rabbit. These are her later recollections of those interactions.[^6]
 

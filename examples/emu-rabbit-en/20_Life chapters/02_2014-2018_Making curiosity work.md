@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # 2014–2018: Making curiosity work
 
-At university, Emu-rabbit was very interested in simulation. Watching programs being translated and interpreted, with everything following rules and behaving precisely, fascinated her.[^1]
+At university, Emu-Rabbit was very interested in simulation. Watching programs being translated and interpreted, with everything following rules and behaving precisely, fascinated her.[^1]
 
 ## A computer inside a computer
 She once wanted to write a “computer inside a computer,” something like a sandbox or virtual machine. Looking back, she described herself then as just a “beginner” who could not write much properly, and she did not continue the project.[^1]

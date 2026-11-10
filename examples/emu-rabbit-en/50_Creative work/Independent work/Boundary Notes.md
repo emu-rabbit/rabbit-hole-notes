@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # Boundary Notes
 
-Boundary Notes is Emu-rabbit's website for organizing BDSM preferences and boundaries. She found few existing websites to choose from and felt their user experience was poor, so she organized hundreds of items into the tool she wanted to make. She cares about the user experience and privacy, and also considered how a backend requiring no login could avoid abuse.[^1]
+Boundary Notes is Emu-Rabbit's website for organizing BDSM preferences and boundaries. She found few existing websites to choose from and felt their user experience was poor, so she organized hundreds of items into the tool she wanted to make. She cares about the user experience and privacy, and also considered how a backend requiring no login could avoid abuse.[^1]
 
 ## A private notebook and the secret-keeping rabbit
 The secret-keeping rabbit accompanies users through conversation as they sort through their feelings at their own pace. Users can keep their note files close and return when their feelings, boundaries, or lives change. When they want to share, they can create a private link to give to someone.[^2]

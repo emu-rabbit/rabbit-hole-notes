@@ -7,10 +7,10 @@ updated: "2026-11-06"
 
 # Frozen Rabbit Tome
 
-Frozen Rabbit Tome is a tool Emu-rabbit made for gathering in FF14. It recommends gathering strategies based on the currently supported models and input conditions. It also lets players combine skills themselves in an experimentation area, simulate results, and compare expected values and risks.[^1]
+Frozen Rabbit Tome is a tool Emu-Rabbit made for gathering in FF14. It recommends gathering strategies based on the currently supported models and input conditions. It also lets players combine skills themselves in an experimentation area, simulate results, and compare expected values and risks.[^1]
 
 ## More complex than expected
-Emu-rabbit initially underestimated the project's difficulty. She recalls that the challenge lay in the complexity of the gathering mechanics themselves and the need for high reliability. After adding collectable mechanics, she had to keep revisiting trade-offs between feasibility, user experience, and usability.[^2]
+Emu-Rabbit initially underestimated the project's difficulty. She recalls that the challenge lay in the complexity of the gathering mechanics themselves and the need for high reliability. After adding collectable mechanics, she had to keep revisiting trade-offs between feasibility, user experience, and usability.[^2]
 
 ## Few users, but still dear to her
 She knew from the beginning that not many people would use this project, and later usage data confirmed it. But learning to reduce cognitive load, handle visual noise, and balance multiple resources while making it still leaves her very fond of the project.[^2]

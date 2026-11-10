@@ -171,8 +171,8 @@ test('all English homepage panels, example link, reader pages, labels and paths 
   execFileSync(process.execPath, ['src/web/build.mjs'], {cwd: root});
   const homepage = readFileSync(new URL('../dist/en/index.html', import.meta.url), 'utf8');
   const text = assertEnglishPresentation(homepage, {}, 'Static English homepage');
-  assert.ok(text.includes("Emu-rabbit's Rabbit Hole"));
-  assert.ok(text.includes('Emu-rabbit'));
+  assert.ok(text.includes("Emu-Rabbit's Rabbit Hole"));
+  assert.ok(text.includes('Emu-Rabbit'));
   assert.equal((homepage.match(/id="structure-en-\d+-panel"/g) ?? []).length, 9);
   for (const filename of readdirSync(new URL('../dist/reader-en/', import.meta.url)).filter(name => name.endsWith('.html'))) {
     assertEnglishPresentation(readFileSync(new URL(`../dist/reader-en/${filename}`, import.meta.url), 'utf8'), {}, filename);
@@ -437,13 +437,13 @@ test('nine sections distinguish generic profiles from real linked bilingual exam
     assert.equal((html.match(/role="tabpanel"/g) ?? []).length, 9);
     assert.ok(html.includes(locale === 'en' ? '&lt;Your name&gt;.md' : '&lt;你的名字&gt;.md'));
     if (locale === 'en') {
-      assert.equal((html.match(/Emu-rabbit/g) ?? []).length, 2);
+      assert.equal((html.match(/Emu-Rabbit/g) ?? []).length, 3);
       assert.doesNotMatch(html, /Emu Usagi/);
     }
     const anchors = tags(html, 'a');
     assert.equal(anchors.length, 25);
     for (const {href} of anchors) assert.ok(mappings.some(pair => href === `./${locale === 'en' ? 'reader-en' : 'reader'}/${noteFile(pair[locale])}`), href);
-    const profile = mappings.find(pair => pair.en === '00_Entry/EmuRabbit.md');
+    const profile = mappings.find(pair => pair.en === '00_Entry/Emu-Rabbit.md');
     assert.ok(html.includes(`href="./${locale === 'en' ? 'reader-en' : 'reader'}/${noteFile(profile[locale])}"`));
     assert.doesNotMatch(html, /href="[^"]*90_/);
   }
@@ -611,7 +611,7 @@ test('bilingual homepage footers group the author and two concise project links'
     const html = text(file);
     const footer = /<footer\b[^>]*>([\s\S]*?)<\/footer>/.exec(html)[1];
     const author = locale === 'en' ? 'Author' : '作者';
-    const name = locale === 'en' ? 'Emu-rabbit' : '絵夢羽さ沂';
+    const name = locale === 'en' ? 'Emu-Rabbit' : '絵夢羽さ沂';
     const project = locale === 'en' ? 'GitHub project' : 'GitHub 專案';
     const licensing = locale === 'en' ? 'Licensing' : '授權說明';
     assert.ok(footer.includes(`>${author}</span>`));
@@ -681,19 +681,34 @@ test('example downloads explain unzipping for Obsidian in both languages', () =>
 
 
 test('English named profile uses the owner filename while retaining its published reader URL', () => {
-  const current = '00_Entry/EmuRabbit.md';
+  const current = '00_Entry/Emu-Rabbit.md';
   const old = '00_Entry/Profile.md';
   const profile = readFileSync(new URL('../examples/emu-rabbit-en/' + current, import.meta.url), 'utf8');
   assert.ok(!existsSync(new URL('../examples/emu-rabbit-en/' + old, import.meta.url)));
   assert.match(profile, /id: "person-emu-public"/);
-  assert.match(profile, /title: "Emu-rabbit"/);
-  assert.match(profile, /^# Emu-rabbit$/m);
+  assert.match(profile, /title: "Emu-Rabbit"/);
+  assert.match(profile, /^# Emu-Rabbit$/m);
   assert.equal(noteFile(current), 'note-2b50f3f8636e64c2b322f9372aba427c65ee659f385362df4b4fb9b7715fbb30.html');
   assert.equal(noteFile(current), noteFile(old));
   const html = readFileSync(buildFile('reader-en/' + noteFile(current)), 'utf8');
-  assert.ok(html.includes('EmuRabbit.md'));
+  assert.ok(html.includes('Emu-Rabbit.md'));
   assert.ok(!html.includes('Profile.md'));
   const archive = readFileSync(buildFile('downloads/emu-rabbit-en.zip'));
   assert.ok(archive.includes(Buffer.from(current)));
   assert.ok(!archive.includes(Buffer.from(old)));
+});
+
+
+test('current author display names use Emu-Rabbit without changing technical identifiers', () => {
+  const english = readFileSync(buildFile('en/index.html'), 'utf8');
+  const profile = readFileSync(buildFile('reader-en/' + noteFile('00_Entry/Emu-Rabbit.md')), 'utf8');
+  assert.ok(english.includes('Emu-Rabbit'));
+  assert.ok(profile.includes('<h1 id="emu-rabbit">Emu-Rabbit</h1>'));
+  assert.ok(profile.includes('https://emu-rabbit.github.io/'));
+  assert.ok(english.includes('https://github.com/emu-rabbit/rabbit-hole-notes'));
+  for (const html of [english, profile]) {
+    assert.ok(!html.includes('Emu-rabbit'));
+    assert.ok(!html.includes('EmuRabbit'));
+    assert.ok(!html.includes('https://Emu-Rabbit'));
+  }
 });

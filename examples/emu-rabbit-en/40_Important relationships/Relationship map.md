@@ -8,9 +8,9 @@ updated: "2026-11-06"
 # Relationship map
 
 ## Current partners
-Emu-rabbit sees Doggo and Kitty as deeply important people with whom she wants to spend her life.
+Emu-Rabbit sees Doggo and Kitty as deeply important people with whom she wants to spend her life.
 - [[40_Important relationships/People/Doggo|Doggo]]: Her human doggo, a food lover. Seeing her partner enjoy food makes her happy too.
-- [[40_Important relationships/People/Kitty|Kitty]]: Her human kitty, clingy and serious about housework. Sometimes Emu-rabbit asks for no chores during a date to leave more time for interaction.
+- [[40_Important relationships/People/Kitty|Kitty]]: Her human kitty, clingy and serious about housework. Sometimes Emu-Rabbit asks for no chores during a date to leave more time for interaction.
 
 ## Past master–pet relationships
 - [[40_Important relationships/People/First master|First master]]: Gently told her it was all right when she could not yet bring herself to wear women's clothes again.

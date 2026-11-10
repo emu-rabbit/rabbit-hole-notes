@@ -6,13 +6,13 @@ Help readers get to know you, then follow their curiosity. The three entry notes
 - [`Reading map.md`](<../../examples/emu-rabbit-en/00_Entry/Reading map.md>): a few selected reading routes that let readers explore topics that interest them.
 - [`Index.md`](<../../examples/emu-rabbit-en/00_Entry/Index.md>): content listed by section, making it easy to find a particular article and see what the rabbit hole contains.
 
-The public example is Emu-rabbit's rabbit hole, so its profile is named [`EmuRabbit.md`](<../../examples/emu-rabbit-en/00_Entry/EmuRabbit.md>).
+The public example is Emu-Rabbit's rabbit hole, so its profile is named [`Emu-Rabbit.md`](<../../examples/emu-rabbit-en/00_Entry/Emu-Rabbit.md>).
 
 ## 10_Self and daily life: See what carries across different periods
 
 Bring together experiences and feelings from different years around individual themes. Readers can see what continues to influence you and how your thoughts change.
 
-The public example uses five notes to explore different sides of Emu-rabbit:
+The public example uses five notes to explore different sides of Emu-Rabbit:
 
 - [`Making things.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Making things.md>): why she creates and what she hopes her work will leave behind.
 - [`Learning, comparison, and what stays.md`](<../../examples/emu-rabbit-en/10_Self and daily life/Learning, comparison, and what stays.md>): curiosity, comparison and frustration in learning, and the abilities she developed along the way.

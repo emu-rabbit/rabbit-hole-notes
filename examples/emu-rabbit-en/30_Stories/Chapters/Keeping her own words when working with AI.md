@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # Keeping her own words when working with AI
 
-The rise of AI once frightened Emu-rabbit, but later she felt more excitement: tools she wanted to make became less troublesome, and new projects took shape faster. At the same time, she began caring more about whether her work still carried her own character.[^1]
+The rise of AI once frightened Emu-Rabbit, but later she felt more excitement: tools she wanted to make became less troublesome, and new projects took shape faster. At the same time, she began caring more about whether her work still carried her own character.[^1]
 
 When making her personal website, she wrote her self-introduction herself, asked AI to preserve it, and arranged the paragraphs and layout to her own rhythm. Looking back on the attempt in her portfolio, she felt she had succeeded. She brought that experience and her ability to handle visual noise into making [[50_Creative work/Independent work/Boundary Notes|Boundary Notes]].[^2]
 

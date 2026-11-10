@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # FoodPower
 
-FoodPower is a food-powered mod Emu-rabbit made for Minecraft. She wanted food to be freely combinable, like TinkerConstruct, and let players gain power from cooking, so she tried making her own mod.[^1]
+FoodPower is a food-powered mod Emu-Rabbit made for Minecraft. She wanted food to be freely combinable, like TinkerConstruct, and let players gain power from cooking, so she tried making her own mod.[^1]
 
 ## Starting with just a little Java
 At the time, she knew only a little Java and had no mod-development experience. There was no AI help, tutorials were scarce and hard to understand, and Minecraft versions changed frequently, making the development environment harder to get to grips with.[^1]

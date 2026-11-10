@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # 2019–2020: Finding reasons to make things
 
-After starting work in operations, Emu-rabbit often had to paste scattered information such as times, reasons, and hosts into a group chat to report it. She made a [[30_Stories/Chapters/Turning repeated reports into one click|one-click copy extension]] that turned the manual assembly into readable report text. Eventually, the entire operations team used it.[^1]
+After starting work in operations, Emu-Rabbit often had to paste scattered information such as times, reasons, and hosts into a group chat to report it. She made a [[30_Stories/Chapters/Turning repeated reports into one click|one-click copy extension]] that turned the manual assembly into readable report text. Eventually, the entire operations team used it.[^1]
 
 ## A stable life and small achievements
 In 2019, she wrote that a stable life was slowly rebuilding her heart. Doing simple things, finishing them, and seeing results also helped her gradually regain the confidence she had lost.[^2]

@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # Turning repeated reports into one click
 
-In operations work, Emu-rabbit often had to paste scattered information into a group chat to report it. Fields such as time, reason, and host were in different places. Each time, she had to copy them manually and arrange them in a format others could understand.[^1]
+In operations work, Emu-Rabbit often had to paste scattered information into a group chat to report it. Fields such as time, reason, and host were in different places. Each time, she had to copy them manually and arrange them in a format others could understand.[^1]
 
 She made a browser extension that turned this repetitive process into a single click, directly producing text suitable for a report. Eventually, the whole operations team began using it.[^1]
 

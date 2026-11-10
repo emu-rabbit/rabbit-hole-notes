@@ -7,12 +7,12 @@ updated: "2026-11-07"
 
 # Minecraft
 
-Minecraft is a game Emu-rabbit has played for over a decade. Rather than simply beating the game, she prefers installing many mods and planning efficient, orderly paths of development in its block world. Botania is one of the mods she often plays.[^1][^2]
+Minecraft is a game Emu-Rabbit has played for over a decade. Rather than simply beating the game, she prefers installing many mods and planning efficient, orderly paths of development in its block world. Botania is one of the mods she often plays.[^1][^2]
 
 She has also written software for Minecraft. [[50_Creative work/Independent work/FoodPower|FoodPower]] aims to make food freely combinable and give players power. Dandelifeon focuses on the mana-generating flower of the same name in Botania, using fully random search, simulated annealing, and genetic algorithms to try to find configurations that produce more mana.[^2]
 
 ## Production lines should look good too
-Emu-rabbit likes factories and automated production lines, and also cares about how the pipes look. In a world made of blocks, she pays attention to symmetry, even spacing and consistency. She arranges the pipes neatly, then uses facades to disguise them as walls and floors.[^3]
+Emu-Rabbit likes factories and automated production lines, and also cares about how the pipes look. In a world made of blocks, she pays attention to symmetry, even spacing and consistency. She arranges the pipes neatly, then uses facades to disguise them as walls and floors.[^3]
 
 ## From the small ring to the large ring
 She spent a long time building a particle collider. The hardest part was getting particles to move from the small ring to the large ring. She repeatedly consulted wikis and tutorials, failing so many times that she was nearly going crazy. After finishing, she reworked the whole place to make it more beautiful.[^3]

@@ -9,7 +9,7 @@ updated: "2026-11-06"
 
 English translation of the published Chinese excerpts. Quotations below are translations, not verbatim English originals.
 
-Source: [Emu-rabbit's Window-side Notes](https://emu-rabbit.github.io/), the author's public profile. Each passage below has a link to a fixed version of the original.
+Source: [Emu-Rabbit's Window-side Notes](https://emu-rabbit.github.io/), the author's public profile. Each passage below has a link to a fixed version of the original.
 
 ## Freedom and love
 

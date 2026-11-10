@@ -7,7 +7,7 @@ updated: "2026-11-06"
 
 # 2025–2026: Creating and being seen
 
-In recent years, Emu-rabbit made an [[50_Creative work/Independent work/Frozen Rabbit Workshop|FF14 materials-planning tool]], a [[50_Creative work/Independent work/Frozen Rabbit Tome|gathering tool]], and [[50_Creative work/Independent work/Boundary Notes|Boundary Notes]], as well as a personal website and portfolio. AI made it easier to start tools she had previously considered too much trouble and helped new projects take shape faster. At the same time, she began caring more about keeping her own character in her work.[^1]
+In recent years, Emu-Rabbit made an [[50_Creative work/Independent work/Frozen Rabbit Workshop|FF14 materials-planning tool]], a [[50_Creative work/Independent work/Frozen Rabbit Tome|gathering tool]], and [[50_Creative work/Independent work/Boundary Notes|Boundary Notes]], as well as a personal website and portfolio. AI made it easier to start tools she had previously considered too much trouble and helped new projects take shape faster. At the same time, she began caring more about keeping her own character in her work.[^1]
 
 ## Player feedback and design choices
 The Workshop turns nested recipes into a flat materials list. Many players thanked her for it, strengthening her belief that software should serve people. Frozen Rabbit Tome has few users, but she still likes it because making it taught her to reduce cognitive load, handle visual noise, and balance different resources.[^2]
